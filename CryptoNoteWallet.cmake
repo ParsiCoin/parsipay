@@ -1,0 +1,4 @@
+
+set(CN_PROJECT_NAME "parsicoin")
+set(CN_CURRENCY_DISPLAY_NAME "ParsiCoin")
+set(CN_CURRENCY_TICKER "PARS")
