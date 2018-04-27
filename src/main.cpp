@@ -1,5 +1,6 @@
 // Copyright (c) 2011-2015 The Cryptonote developers
 // Copyright (c) 2016-2017 The Karbowanec developers
+// Copyright (c) 2018 The Parsicoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #include <QApplication>
@@ -109,7 +110,7 @@ int main(int argc, char* argv[]) {
 
   //Create registry entries for URL execution
   QSettings karbowanecKey("HKEY_CLASSES_ROOT\\karbowanec", QSettings::NativeFormat);
-  karbowanecKey.setValue(".", "Karbo Wallet");
+  karbowanecKey.setValue(".", "Parsicoin Wallet");
   karbowanecKey.setValue("URL Protocol", "");
   QSettings karbowanecOpenKey("HKEY_CLASSES_ROOT\\karbowanec\\shell\\open\\command", QSettings::NativeFormat);
   karbowanecOpenKey.setValue(".", "\"" + QCoreApplication::applicationFilePath().replace("/", "\\") + "\" \"%1\"");
