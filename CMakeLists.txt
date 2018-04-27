@@ -292,8 +292,8 @@ elseif (UNIX)
         set(CPACK_DEBIAN_PACKAGE_SECTION Office)
         set(CPACK_DEBIAN_PACKAGE_SHLIBDEPS ON)
         set(CPACK_DEBIAN_PACKAGE_DESCRIPTION "ParsiCoin PARS wallet
- Karbowanec is Ukrainian decentralized, privacy oriented peer-to-peer
- cryptocurrency. It is open-source, nobody owns or controls Karbowanec
+ Parsicoin is a decentralized, privacy oriented peer-to-peer
+ cryptocurrency. It is open-source, nobody owns or controls Parsicoin
  and everyone can take part.")
 set(CPACK_PACKAGE_FILE_NAME "${CPACK_DEBIAN_PACKAGE_NAME}-${CPACK_PACKAGE_VERSION}-${VERSION_RELEASE}${CPACK_SYSTEM_NAME}")
     else()
@@ -305,8 +305,8 @@ set(CPACK_PACKAGE_FILE_NAME "${CPACK_DEBIAN_PACKAGE_NAME}-${CPACK_PACKAGE_VERSIO
         set(CPACK_RPM_PACKAGE_REQUIRES "qt5-qtbase >= 5.3.2, qt5-qtbase-gui >= 5.3.2")
         set(CPACK_RPM_PACKAGE_SUMMARY "ParsiCoin PARS wallet")
         set(CPACK_RPM_PACKAGE_DESCRIPTION "ParsiCoin PARS wallet
- Karbowanec is Ukrainian decentrilized, privacy oriented peer-to-peer
- cryptocurrency. It is open-source, nobody owns or controls Karbowanec
+ Parsicoin is a decentrilized, privacy oriented peer-to-peer
+ cryptocurrency. It is open-source, nobody owns or controls Parsicoin
  and everyone can take part.")
 set(CPACK_PACKAGE_FILE_NAME "${CPACK_PACKAGE_NAME}-${CPACK_PACKAGE_VERSION}-${VERSION_RELEASE}${CPACK_SYSTEM_NAME}")
     endif ()
