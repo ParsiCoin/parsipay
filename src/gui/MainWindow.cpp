@@ -118,7 +118,7 @@ void MainWindow::connectToSignals() {
 }
 
 void MainWindow::initUi() {
-  setWindowTitle(QString(tr("ParsiCoin Wallet 0.9.3")).arg(Settings::instance().getVersion()));
+  setWindowTitle(QString(tr("ParsiCoin Wallet 0.9.4")).arg(Settings::instance().getVersion()));
 #ifdef Q_OS_WIN32
   createTrayIcon();
 #endif
