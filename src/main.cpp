@@ -121,7 +121,7 @@ int main(int argc, char* argv[]) {
   QProcess exec;
 
   //as root
-  args << "-c" << "printf '[Desktop Entry]\\nName = Karbo URL Handler\\nGenericName = Karbo\\nComment = Handle URL Sheme karbowanec://\\nExec = " + QCoreApplication::applicationFilePath() + " %%u\\nTerminal = false\\nType = Application\\nMimeType = x-scheme-handler/karbowanec;\\nIcon = Karbo-Wallet' | tee /usr/share/applications/karbowanec-handler.desktop";
+  args << "-c" << "printf '[Desktop Entry]\\nName = PARS URL Handler\\nGenericName = Karbo\\nComment = Handle URL Sheme karbowanec://\\nExec = " + QCoreApplication::applicationFilePath() + " %%u\\nTerminal = false\\nType = Application\\nMimeType = x-scheme-handler/karbowanec;\\nIcon = Karbo-Wallet' | tee /usr/share/applications/karbowanec-handler.desktop";
   exec.start("/bin/sh", args);
   exec.waitForFinished();
 
