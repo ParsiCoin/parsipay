@@ -1,12 +1,12 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Parsicoin
+Name=ParsiPay
 GenericName=ParsiPay
-Comment=Parsicoin wallet
+Comment=Parsicoin GUI wallet
 Exec=parsipay %U
 Terminal=false
 Type=Application
-Icon=karbowanec
-MimeType=x-scheme-handler/karbowanec;
-Categories=Office;Finance;
+Icon=parsicoin
+MimeType=x-scheme-handler/parsicoin;
+Categories=Internet;
 Version=0.9.4
