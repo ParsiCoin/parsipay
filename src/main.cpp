@@ -109,11 +109,11 @@ int main(int argc, char* argv[]) {
   }
 
   //Create registry entries for URL execution
-  QSettings karbowanecKey("HKEY_CLASSES_ROOT\\karbowanec", QSettings::NativeFormat);
-  karbowanecKey.setValue(".", "Parsicoin Wallet");
-  karbowanecKey.setValue("URL Protocol", "");
-  QSettings karbowanecOpenKey("HKEY_CLASSES_ROOT\\karbowanec\\shell\\open\\command", QSettings::NativeFormat);
-  karbowanecOpenKey.setValue(".", "\"" + QCoreApplication::applicationFilePath().replace("/", "\\") + "\" \"%1\"");
+  QSettings parsicoinKey("HKEY_CLASSES_ROOT\\Parsicoin", QSettings::NativeFormat);
+  parsicoinKey.setValue(".", "Parsicoin Wallet");
+  parsicoinKey.setValue("URL Protocol", "");
+  QSettings parsicoinOpenKey("HKEY_CLASSES_ROOT\\parsicoin\\shell\\open\\command", QSettings::NativeFormat);
+  parsicoinOpenKey.setValue(".", "\"" + QCoreApplication::applicationFilePath().replace("/", "\\") + "\" \"%1\"");
 #endif
 
 #if defined(Q_OS_LINUX)
@@ -121,7 +121,7 @@ int main(int argc, char* argv[]) {
   QProcess exec;
 
   //as root
-  args << "-c" << "printf '[Desktop Entry]\\nName = PARS URL Handler\\nGenericName = Karbo\\nComment = Handle URL Sheme karbowanec://\\nExec = " + QCoreApplication::applicationFilePath() + " %%u\\nTerminal = false\\nType = Application\\nMimeType = x-scheme-handler/karbowanec;\\nIcon = Karbo-Wallet' | tee /usr/share/applications/karbowanec-handler.desktop";
+  args << "-c" << "printf '[Desktop Entry]\\nName = PARS URL Handler\\nGenericName = parsicoin\\nComment = Handle URL Sheme parsicoin://\\nExec = " + QCoreApplication::applicationFilePath() + " %%u\\nTerminal = false\\nType = Application\\nMimeType = x-scheme-handler/parsicoin;\\nIcon = Parsicoin-Wallet' | tee /usr/share/applications/Parsicoin-handler.desktop";
   exec.start("/bin/sh", args);
   exec.waitForFinished();
 
