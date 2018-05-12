@@ -158,22 +158,6 @@
       </property>
      </widget>
     </item>
-    <item row="1" column="5">
-     <widget class="WalletGui::MiningFrame" name="m_miningFrame">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="frameShape">
-       <enum>QFrame::NoFrame</enum>
-      </property>
-      <property name="frameShadow">
-       <enum>QFrame::Raised</enum>
-      </property>
-     </widget>
-    </item>
     <item row="1" column="2">
      <widget class="WalletGui::ReceiveFrame" name="m_receiveFrame">
       <property name="sizePolicy">
@@ -244,7 +228,6 @@
     <addaction name="m_startOnLoginAction"/>
     <addaction name="m_minimizeToTrayAction"/>
     <addaction name="m_closeToTrayAction"/>
-    <addaction name="m_miningOnLaunchAction"/>
    </widget>
    <widget class="QMenu" name="menuHelp">
     <property name="title">
@@ -320,7 +303,6 @@
    <addaction name="m_receiveAction"/>
    <addaction name="m_transactionsAction"/>
    <addaction name="m_addressBookAction"/>
-   <addaction name="m_miningAction"/>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
   <widget class="QToolBar" name="accountToolBar">
@@ -508,18 +490,10 @@
     <string>Import private key</string>
    </property>
   </action>
-  <action name="m_miningAction">
-   <property name="checkable">
-    <bool>true</bool>
-   </property>
-   <property name="icon">
-    <iconset resource="../../resources.qrc">
-     <normaloff>:/icons/mining</normaloff>:/icons/mining</iconset>
-   </property>
+  <action name="m_resetAction">
    <property name="text">
-    <string>Mining</string>
+    <string>Reset wallet</string>
    </property>
-  </action>
   <action name="m_resetAction">
    <property name="text">
     <string>Reset wallet</string>
