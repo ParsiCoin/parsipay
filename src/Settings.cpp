@@ -98,7 +98,7 @@ void Settings::load() {
   }
 
   QStringList defaultNodesList;
-  defaultNodesList << "node.parsicoin.net:18230";
+  defaultNodesList << "eu-node.parsicoin.net:18230"; << "us-node.parsicoin.net:18230"; 
   if (!m_settings.contains(OPTION_RPCNODES)) {
     setRpcNodesList(QStringList() << defaultNodesList);
   } else {
