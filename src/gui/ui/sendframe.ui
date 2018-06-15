@@ -208,16 +208,16 @@
         <number>8</number>
        </property>
        <property name="minimum">
-        <double>0.01000000</double>
+        <double>0.00010000000</double>
        </property>
        <property name="maximum">
         <double>999999999999999.00000000</double>
        </property>
        <property name="singleStep">
-        <double>0.01000000</double>
+        <double>0.00010000000</double>
        </property>
        <property name="value">
-        <double>0.01000000</double>
+        <double>0.00010000000</double>
        </property>
       </widget>
      </item>
@@ -273,7 +273,7 @@
         <double>999999999999999.000000000000000</double>
        </property>
        <property name="singleStep">
-        <double>0.100000000000000</double>
+        <double>0.10000000000</double>
        </property>
       </widget>
      </item>
