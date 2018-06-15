@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=ParsiPay
+GenericName=ParsiPay
+Comment=Parsicoin GUI wallet
+Exec=parsipay %U
+Terminal=false
+Type=Application
+Icon=parsicoin
+MimeType=x-scheme-handler/parsicoin;
+Categories=Internet;cryptocurrency;
+Version=0.9.9
