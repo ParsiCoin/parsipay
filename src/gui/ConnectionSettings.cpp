@@ -1,7 +1,7 @@
 // Copyright (c) 2016 The Karbowanec developers
+// Copyright (c) 2018 The Parsicoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
 #include "ui_connectionsettingsdialog.h"
 #include "ConnectionSettings.h"
 #include "CurrencyAdapter.h"
@@ -31,7 +31,10 @@ ConnectionSettingsDialog::~ConnectionSettingsDialog() {
 
 void ConnectionSettingsDialog::initConnectionSettings() {
  QString connection = Settings::instance().getConnection();
-    if(connection.compare("embedded") == 0) {
+    if(connection.compare("auto") == 0) {
+        m_ui->radioButton_1->setChecked(true);
+    }
+    else if(connection.compare("embedded") == 0) {
         m_ui->radioButton_2->setChecked(true);
     }
     else if(connection.compare("local") == 0) {
@@ -56,6 +59,10 @@ void ConnectionSettingsDialog::initConnectionSettings() {
 
 QString ConnectionSettingsDialog::setConnectionMode() const {
     QString connectionMode;
+    if(m_ui->radioButton_1->isChecked())
+    {
+        connectionMode = "auto";
+    }
     if(m_ui->radioButton_2->isChecked())
     {
         connectionMode = "embedded";
