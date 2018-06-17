@@ -1,9 +1,9 @@
 // Copyright (c) 2011-2015 The Cryptonote developers
 // Copyright (c) 2015-2016 XDN developers
 // Copyright (c) 2016-2017 The Karbowanec developers
+// Copyright (c) 2018 Parsicoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
 #include "AddressBookModel.h"
 #include "CurrencyAdapter.h"
 #include "MainWindow.h"
@@ -108,7 +108,7 @@ void SendFrame::clearAllClicked() {
   addRecipientClicked();
   amountValueChange();
   m_ui->m_paymentIdEdit->clear();
-  m_ui->m_mixinSlider->setValue(5);
+  m_ui->m_mixinSlider->setValue();
   m_ui->m_feeSpin->setValue(m_ui->m_feeSpin->minimum());
 }
 
