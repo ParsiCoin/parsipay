@@ -84,7 +84,7 @@ void Settings::load() {
   }
 
   QStringList defaultPoolList;
-  defaultPoolList << "pars.hashpool.frl:11333";
+  defaultPoolList << "pool.parsicoin.net:11333";
   if (!m_settings.contains(OPTION_MINING_POOLS)) {
     setMiningPoolList(QStringList() << defaultPoolList);
   } else {
@@ -98,7 +98,7 @@ void Settings::load() {
   }
 
   QStringList defaultNodesList;
-  defaultNodesList << "bg-node.parsicoin.net:18230" << "us-node.parsicoin.net:18230"; 
+  defaultNodesList << "us-node.parsicoin.net:18230" << "uk-node.parsicoin.net:18230" << "sg-node.parsicoin.net:18230";
   if (!m_settings.contains(OPTION_RPCNODES)) {
     setRpcNodesList(QStringList() << defaultNodesList);
   } else {
