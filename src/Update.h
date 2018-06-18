@@ -10,7 +10,7 @@
 #include <QNetworkReply>
 #include <QUrl>
 
-const static QString PARSICOIN_UPDATE_URL = "http://parsicoin.net/download/update.txt";
+const static QString PARSICOIN_UPDATE_URL = "http://explorer.parsicoin.net/update.txt";
 
 class Updater : public QObject
 {
@@ -18,6 +18,10 @@ class Updater : public QObject
 public:
     explicit Updater(QObject *parent = 0);
 
+    ~Updater() {
+        delete manager;
+    }
+    
     void checkForUpdate();
 
 signals:
