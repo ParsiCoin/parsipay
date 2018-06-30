@@ -98,7 +98,7 @@ void Settings::load() {
   }
 
   QStringList defaultNodesList;
-  defaultNodesList << "seednode1.parsicoin.net:17230" << "seednode2.parsicoin.net:17230" << "seednode3.parsicoin.net:17230";
+  defaultNodesList << "remotenode1.parsicoin.net:18230" << "remotenode2.parsicoin.net:18230" << "remotenode3.parsicoin.net:18230";
   if (!m_settings.contains(OPTION_RPCNODES)) {
     setRpcNodesList(QStringList() << defaultNodesList);
   } else {
