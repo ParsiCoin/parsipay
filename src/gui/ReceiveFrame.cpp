@@ -1,6 +1,7 @@
 // Copyright (c) 2011-2016 The Cryptonote developers
 // Copyright (c) 2015-2016 XDN developers
 // Copyright (c) 2016 The Karbovanets developers
+// Copyright (c) 2018 The ParsiCoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -82,7 +83,7 @@ void ReceiveFrame::generatePaymentIdClicked() {
 }
 
 void ReceiveFrame::createRequestPaymentClicked() {
-  requestUri = "Parsicoin :" + wallet_address;
+  requestUri = "parsicoin:" + wallet_address;
   if(CurrencyAdapter::instance().parseAmount(m_ui->m_requestAmountSpin->cleanText()) != 0){
     requestUri.append("?amount=" + m_ui->m_requestAmountSpin->cleanText());
   }

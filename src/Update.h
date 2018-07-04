@@ -1,4 +1,5 @@
 // Copyright (c) 2016 The Karbowanec developers
+// Copyright (c) 2018 The ParsiCoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #ifndef UPDATE_H
@@ -18,10 +19,6 @@ class Updater : public QObject
 public:
     explicit Updater(QObject *parent = 0);
 
-    ~Updater() {
-        delete manager;
-    }
-    
     void checkForUpdate();
 
 signals:

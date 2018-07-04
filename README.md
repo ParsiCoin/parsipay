@@ -26,7 +26,7 @@ Build on *nix :
 
 git clone https://github.com/parsicoin/parsipay && cd parsipay && git clone https://github.com/parsicoin/parsicoin cryptonote
 
-then :
+then : (tested on Ubuntu 16.04)
 
 mkdir build && cd build && cmake .. && make
 
@@ -34,10 +34,10 @@ on Windows:
 
 git clone https://github.com/parsicoin/parsipay && cd parsipay && git clone https://github.com/parsicoin/parsicoin cryptonote
 
-Then: (for MSVS 2015 & Qt 5.8.0)
+Then: (tested on windows 8.1/10 + boost 1.59.0 , cmake 3.10.0 , MSVS 2015 & Qt 5.10.1)
 
-cmake -G "Visual Studio 14" -DCMAKE_PREFIX_PATH=C:\Qt\Qt5.8.0\5.8\msvc2015
+mkdir build && cd build && cmake .. -G "Visual Studio 14" -DCMAKE_PREFIX_PATH=C:\Qt\Qt5.10.1\5.10.1\msvc2015
 
-This will create a parsicoin.sln file which you can open in Visual Studio and build.
+then open ParsiPay.sln and Build.
 
 Good luck!

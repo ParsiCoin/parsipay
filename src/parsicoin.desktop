@@ -1,0 +1,24 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=ParsiPay
+GenericName=ParsiPay
+Name[uk]=ParsiPay
+Name[ru]=ParsiPay
+Name[pl]=ParsiPay
+Name[be]=ParsiPay
+Name[de]=ParsiPay
+Name[es]=ParsiPay
+Comment=ParsiCoin GUI Wallet
+Comment[uk]=ParsiCoin GUI Wallet
+Comment[ru]=ParsiCoin GUI Wallet
+Comment[pl]=ParsiCoin GUI Wallet
+Comment[be]=ParsiCoin GUI Wallet
+Comment[de]=ParsiCoin GUI Wallet
+Comment[es]=ParsiCoin GUI Wallet
+Exec=parsipay %U
+Terminal=false
+Type=Application
+Icon=parsicoin
+MimeType=x-scheme-handler/parsipay;
+Categories=Office;Finance;
+Version=1.0.2

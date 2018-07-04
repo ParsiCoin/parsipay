@@ -2,7 +2,7 @@
 // Copyright (c) 2011-2013 The Bitcoin Core developers
 // Copyright (c) 2015-2016 XDN developers
 // Copyright (c) 2016-2018 The Karbowanec developers
-// Copyright (c) 2018 The Parsicoin developers
+// Copyright (c) 2018 The ParsiCoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -118,7 +118,7 @@ void MainWindow::connectToSignals() {
 }
 
 void MainWindow::initUi() {
-  setWindowTitle(QString(tr("ParsiCoin Wallet v1.0.1")).arg(Settings::instance().getVersion()));
+  setWindowTitle(QString(tr("ParsiCoin Wallet %1")).arg(Settings::instance().getVersion()));
 #ifdef Q_OS_WIN32
   createTrayIcon();
 #endif
@@ -149,6 +149,7 @@ void MainWindow::initUi() {
   m_tabActionGroup->addAction(m_ui->m_transactionsAction);
   m_tabActionGroup->addAction(m_ui->m_addressBookAction);
 
+
   m_ui->m_overviewAction->toggle();
   encryptedFlagChanged(false);
   statusBar()->addPermanentWidget(m_trackingModeIconLabel);
@@ -171,6 +172,7 @@ void MainWindow::initUi() {
   }
 
   m_ui->m_showMnemonicSeedAction->setEnabled(false);
+
 
   m_ui->m_startOnLoginAction->setChecked(Settings::instance().isStartOnLoginEnabled());
 
@@ -556,7 +558,7 @@ void MainWindow::DisplayCmdLineHelp() {
     QMessageBox *msg = new QMessageBox(QMessageBox::Information, QObject::tr("Help"),
                        cmdLineParser.getHelpText(),
                        QMessageBox::Ok, this);
-    msg->setInformativeText(tr("More info can be found at www.parsicoin.net in Documentation section"));
+    msg->setInformativeText(tr("More info can be found at https://parsicoin.net"));
     QFont font = QFontDatabase::systemFont(QFontDatabase::FixedFont);
     msg->setFont(font);
     QSpacerItem* horizontalSpacer = new QSpacerItem(650, 0, QSizePolicy::Minimum, QSizePolicy::Expanding);
@@ -735,7 +737,7 @@ void MainWindow::setStartOnLogin(bool _on) {
 
 void MainWindow::setMiningOnLaunch(bool _on) {
   Settings::instance().setMiningOnLaunchEnabled(_on);
-  m_ui->m_miningOnLaunchAction->setChecked(Settings::instance().isMiningOnLaunchEnabled());
+
 }
 
 void MainWindow::setMinimizeToTray(bool _on) {
@@ -876,7 +878,7 @@ void MainWindow::walletClosed() {
   Q_FOREACH(auto action, tabActions) {
     action->setEnabled(false);
   }
-  m_ui->m_miningAction->setEnabled(true);
+
   Settings::instance().setTrackingMode(false);
   updateRecentActionList();
 }
@@ -931,12 +933,12 @@ void MainWindow::createTrayIconMenu()
     trayIconMenu->addAction(m_ui->m_receiveAction);
     trayIconMenu->addAction(m_ui->m_transactionsAction);
     trayIconMenu->addAction(m_ui->m_addressBookAction);
-    trayIconMenu->addAction(m_ui->m_miningAction);
+
     trayIconMenu->addSeparator();
     trayIconMenu->addAction(m_ui->m_openWalletAction);
     trayIconMenu->addAction(m_ui->m_closeWalletAction);
     trayIconMenu->addSeparator();
-    trayIconMenu->addAction(m_ui->actionHelp);
+
 #ifndef Q_OS_MAC // This is built-in on Mac
     trayIconMenu->addSeparator();
     trayIconMenu->addAction(m_ui->m_exitAction);

@@ -1,3 +1,10 @@
+// Copyright (c) 2011-2015 The Cryptonote developers
+// Copyright (c) 2015-2016 XDN developers
+// Copyright (c) 2016 The Karbowanec developers
+// Copyright (c) 2018 The ParsiCoin developers
+// Distributed under the MIT/X11 software license, see the accompanying
+// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
 #include <QCoreApplication>
 #include <QFile>
 #include <QJsonArray>
@@ -21,7 +28,6 @@ Q_DECL_CONSTEXPR char OPTION_RPCNODES[] = "remoteNodes";
 Q_DECL_CONSTEXPR char OPTION_DAEMON_PORT[] = "daemonPort";
 Q_DECL_CONSTEXPR char OPTION_REMOTE_NODE[] = "remoteNode";
 Q_DECL_CONSTEXPR char OPTION_CURRENT_POOL[] = "currentPool";
-const char OPTION_WALLET_THEME[] = "theme";
 
 Settings& Settings::instance() {
   static Settings inst;
@@ -84,7 +90,7 @@ void Settings::load() {
   }
 
   QStringList defaultPoolList;
-  defaultPoolList << "pool.parsicoin.net:11333";
+  defaultPoolList << "pool.parsicoin.net:5555";
   if (!m_settings.contains(OPTION_MINING_POOLS)) {
     setMiningPoolList(QStringList() << defaultPoolList);
   } else {
@@ -98,7 +104,7 @@ void Settings::load() {
   }
 
   QStringList defaultNodesList;
-  defaultNodesList << "remotenode1.parsicoin.net:18230" << "remotenode2.parsicoin.net:18230" << "remotenode3.parsicoin.net:18230";
+  defaultNodesList << "uk.parsicoin.net:18230" << "us.parsicoin.net:18230" << "sg.parsicoin.net:18230";
   if (!m_settings.contains(OPTION_RPCNODES)) {
     setRpcNodesList(QStringList() << defaultNodesList);
   } else {
@@ -214,10 +220,6 @@ QStringList Settings::getMiningPoolList() const {
   return res;
 }
 
-QString Settings::getCurrentTheme() const {
-  return m_settings.contains(OPTION_WALLET_THEME) ? m_settings.value(OPTION_WALLET_THEME).toString() : "light";
-}
-
 QString Settings::getLanguage() const {
     QString currentLang;
     if (m_settings.contains(OPTION_LANGUAGE)) {
@@ -258,9 +260,6 @@ QString Settings::getCurrentRemoteNode() const {
     QString remotenode;
     if (m_settings.contains(OPTION_REMOTE_NODE)) {
         remotenode = m_settings.value(OPTION_REMOTE_NODE).toString();
-	}
-	else {
-		remotenode = "bg-node.parsicoin.net:18230";
     }
     return remotenode;
 }

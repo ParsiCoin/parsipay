@@ -1,7 +1,8 @@
 // Copyright (c) 2016 The Karbowanec developers
-// Copyright (c) 2018 The Parsicoin developers
+// Copyright (c) 2018 The ParsiCoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
 #include "ui_connectionsettingsdialog.h"
 #include "ConnectionSettings.h"
 #include "CurrencyAdapter.h"
@@ -63,7 +64,7 @@ QString ConnectionSettingsDialog::setConnectionMode() const {
     {
         connectionMode = "auto";
     }
-    if(m_ui->radioButton_2->isChecked())
+    else if(m_ui->radioButton_2->isChecked())
     {
         connectionMode = "embedded";
     }
