@@ -62,7 +62,7 @@ void Settings::load() {
     }
 
     if (!m_settings.contains(OPTION_CONNECTION)) {
-         m_connectionMode = "auto";
+         m_connectionMode = "remote";
     }
 
     if (!m_settings.contains(OPTION_DAEMON_PORT)) {
@@ -104,7 +104,7 @@ void Settings::load() {
   }
 
   QStringList defaultNodesList;
-  defaultNodesList << "uk.parsicoin.net:18230" << "us.parsicoin.net:18230" << "sg.parsicoin.net:18230";
+  defaultNodesList << "us.parsicoin.net:18230";
   if (!m_settings.contains(OPTION_RPCNODES)) {
     setRpcNodesList(QStringList() << defaultNodesList);
   } else {
@@ -234,7 +234,7 @@ QString Settings::getConnection() const {
         connection = m_settings.value(OPTION_CONNECTION).toString();
     }
     else {
-    connection = "auto"; // default
+    connection = "remote"; // default
     }
     return connection;
 }
