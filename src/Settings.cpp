@@ -267,7 +267,7 @@ QString Settings::getCurrentRemoteNode() const {
         remotenode = m_settings.value(OPTION_REMOTE_NODE).toString();
     }
 	else {
-		remotenode = "bg.parsicoin.net:18231"
+		remotenode = "bg.parsicoin.net:18231";
 	}
     return remotenode;
 }
