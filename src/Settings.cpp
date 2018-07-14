@@ -28,6 +28,7 @@ Q_DECL_CONSTEXPR char OPTION_RPCNODES[] = "remoteNodes";
 Q_DECL_CONSTEXPR char OPTION_DAEMON_PORT[] = "daemonPort";
 Q_DECL_CONSTEXPR char OPTION_REMOTE_NODE[] = "remoteNode";
 Q_DECL_CONSTEXPR char OPTION_CURRENT_POOL[] = "currentPool";
+const char OPTION_WALLET_THEME[] = "theme";
 
 Settings& Settings::instance() {
   static Settings inst;
@@ -220,6 +221,10 @@ QStringList Settings::getMiningPoolList() const {
   return res;
 }
 
+QString Settings::getCurrentTheme() const {
+  return m_settings.contains(OPTION_WALLET_THEME) ? m_settings.value(OPTION_WALLET_THEME).toString() : "light";
+}
+
 QString Settings::getLanguage() const {
     QString currentLang;
     if (m_settings.contains(OPTION_LANGUAGE)) {
@@ -261,6 +266,9 @@ QString Settings::getCurrentRemoteNode() const {
     if (m_settings.contains(OPTION_REMOTE_NODE)) {
         remotenode = m_settings.value(OPTION_REMOTE_NODE).toString();
     }
+	else {
+		remotenode = "bg.parsicoin.net:18231"
+	}
     return remotenode;
 }
 
