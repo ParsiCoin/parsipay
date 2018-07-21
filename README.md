@@ -26,7 +26,7 @@ Build on *nix :
 
 git clone https://github.com/parsicoin/parsipay && cd parsipay && git clone https://github.com/parsicoin/parsicoin cryptonote
 
-then : (tested on Ubuntu 16.04)
+then : (tested on Ubuntu 16.04/18.04)
 
 mkdir build && cd build && cmake .. && make
 
@@ -34,7 +34,7 @@ on Windows:
 
 git clone https://github.com/parsicoin/parsipay && cd parsipay && git clone https://github.com/parsicoin/parsicoin cryptonote
 
-Then: (tested on windows 8.1/10 + boost 1.59.0 , cmake 3.10.0 , MSVS 2015 & Qt 5.10.1)
+Then: (tested on windows 8.1/10 with boost 1.59.0 , cmake 3.10.0 , MSVS 2015 & Qt 5.10.1)
 
 mkdir build && cd build && cmake .. -G "Visual Studio 14" -DCMAKE_PREFIX_PATH=C:\Qt\Qt5.10.1\5.10.1\msvc2015
 
