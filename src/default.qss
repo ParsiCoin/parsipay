@@ -222,7 +222,7 @@ QWidget#scrollAreaWidgetContents {
 }
 
 QToolBar#accountToolBar { 
-	background-color: rgb(133, 167, 211);
+	background-color: #6f88c4;
 	border: 0; min-height: 71px;
 }
 
@@ -233,7 +233,7 @@ QToolBar {
 }
 
 QToolBar#toolBar {
-	background-color: rgba(32, 55, 92, 0.9);
+	background-color: #0e1e44;
 	width: 150px; 
 	min-width: 150px; 
 	spacing: 0; 
@@ -275,7 +275,7 @@ QToolBar#toolBar QToolButton::checked:hover {
 }
 
 QStatusBar#statusBar {
-	background-color: rgba(222, 234, 250, 0.7);
+	background-color: #dedee2;
 }
 
 #m_accountFrame #m_addressEdit {
