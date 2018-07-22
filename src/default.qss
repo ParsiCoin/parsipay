@@ -11,11 +11,11 @@ QTabBar {
 }
 
 QMainWindow {
-	background-color: #dedee2 url(":/images/bg.png") no-repeat bottom left;
+	background-color: #e8e8ed url(":/images/bg.png") no-repeat bottom left;
 }
 
 QDialog {
-	background-color: #dedee2;
+	background-color: #e8e8ed;
 }
 
 QPushButton, QToolButton {

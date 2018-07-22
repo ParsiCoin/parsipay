@@ -343,7 +343,7 @@
      <normaloff>:/icons/overview</normaloff>:/icons/overview</iconset>
    </property>
    <property name="text">
-    <string>Overview</string>
+    <string> Overview               ></string>
    </property>
   </action>
   <action name="m_sendAction">
@@ -358,7 +358,7 @@
      <normaloff>:/icons/send</normaloff>:/icons/send</iconset>
    </property>
    <property name="text">
-    <string>Send</string>
+    <string> Send                        ></string>
    </property>
   </action>
   <action name="m_receiveAction">
@@ -373,7 +373,7 @@
      <normaloff>:/icons/receive</normaloff>:/icons/receive</iconset>
    </property>
    <property name="text">
-    <string>Receive</string>
+    <string>  Receive                   ></string>
    </property>
   </action>
   <action name="m_transactionsAction">
@@ -388,7 +388,7 @@
      <normaloff>:/icons/transactions</normaloff>:/icons/transactions</iconset>
    </property>
    <property name="text">
-    <string>Transactions</string>
+    <string>  Transactions       ></string>
    </property>
   </action>
   <action name="m_exitAction">
@@ -414,7 +414,7 @@
      <normaloff>:/icons/address-book</normaloff>:/icons/address-book</iconset>
    </property>
    <property name="text">
-    <string>Contacts</string>
+    <string> Contacts               ></string>
    </property>
   </action>
   <action name="m_createWalletAction">
