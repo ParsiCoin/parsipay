@@ -889,6 +889,18 @@ Please wait...</source>
         <source>Copy key</source>
         <translation>Скопіювати ключ</translation>
     </message>
+	<message>
+        <source>Private Keys</source>
+        <translation>Приватні ключі</translation>
+    </message>
+    <message>
+        <source>Spend Secret Key</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>View Secret Key</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QObject</name>
