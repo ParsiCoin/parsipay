@@ -26,7 +26,7 @@ Build on *nix :
 
 git clone https://github.com/parsicoin/parsipay && cd parsipay && git clone https://github.com/parsicoin/parsicoin cryptonote
 
-then : (tested on Ubuntu 16.04/18.04)
+then : (tested on Ubuntu 16.04/18.04 & MAC OS X 10.12.6 with cmake 3.10.0 + GCC 7.3.0 + boost 1.67.0 + QT 5.11.1)
 
 mkdir build && cd build && cmake .. && make
 
