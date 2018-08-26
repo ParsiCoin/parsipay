@@ -18,6 +18,8 @@ include_directories(${CMAKE_BINARY_DIR}
     cryptonote/src
     libqrencode)
 
+# set (CMAKE_PREFIX_PATH "/usr/local/Cellar/qt/5.11.1/") # uncomment if you are building on osx (change "5.11.1" with whatever qt5 verion you installed.)
+
 find_package(Qt5Gui REQUIRED)
 find_package(Qt5Widgets REQUIRED)
 find_package(Qt5Network REQUIRED)
