@@ -1,5 +1,4 @@
 // Copyright (c) 2016 The Karbowanec developers
-// Copyright (c) 2018 The ParsiCoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -32,11 +31,11 @@ void PrivateKeysDialog::walletOpened() {
   m_ui->m_privateKeyEdit->setText(privateKeys);
 //m_ui->m_qrLabel->showQRCode(privateKeys);
 
-	QString spendSecretKey = QString::fromStdString(Common::podToHex(keys.spendSecretKey));
-	QString viewSecretKey = QString::fromStdString(Common::podToHex(keys.viewSecretKey));
-	
-	m_ui->m_spendSecretKeyEdit->setText(spendSecretKey);
-	m_ui->m_viewSecretKeyEdit->setText(viewSecretKey);
+  QString spendSecretKey = QString::fromStdString(Common::podToHex(keys.spendSecretKey));
+  QString viewSecretKey = QString::fromStdString(Common::podToHex(keys.viewSecretKey));
+
+  m_ui->m_spendSecretKeyEdit->setText(spendSecretKey);
+  m_ui->m_viewSecretKeyEdit->setText(viewSecretKey);
 
 }
 

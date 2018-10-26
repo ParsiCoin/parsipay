@@ -91,7 +91,7 @@
     <widget class="QDoubleSpinBox" name="m_amountSpin">
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>8</pointsize>
       </font>
      </property>
      <property name="cursor">
@@ -107,10 +107,10 @@
       <string notr="true"/>
      </property>
      <property name="decimals">
-      <number>12</number>
+      <number>8</number>
      </property>
      <property name="maximum">
-      <double>9999999.999998999759555</double>
+      <double>9999999.99999899975</double>
      </property>
     </widget>
    </item>

@@ -1,5 +1,4 @@
 // Copyright (c) 2011-2015 The Cryptonote developers
-// Copyright (c) 2018 The ParsiCoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -33,6 +32,7 @@ private:
   void layoutChanged();
   void updateActualBalance(quint64 _balance);
   void updatePendingBalance(quint64 _balance);
+  void updateUnmixableBalance(quint64 _balance);
   void reset();
 };
 

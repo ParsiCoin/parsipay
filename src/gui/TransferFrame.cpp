@@ -8,10 +8,10 @@
 #include <QApplication>
 #include <QClipboard>
 
+#include "TransferFrame.h"
 #include "AddressBookDialog.h"
 #include "MainWindow.h"
 #include "CurrencyAdapter.h"
-#include "TransferFrame.h"
 #include "DnsLookup.h"
 
 #include "ui_transferframe.h"
@@ -67,6 +67,8 @@ void TransferFrame::addressBookClicked() {
 void TransferFrame::timerEvent(QTimerEvent* _event) {
   if (_event->timerId() == m_addressInputTimer) {
     m_aliasProvider->getAddresses(m_ui->m_addressEdit->text().trimmed());
+    killTimer(m_addressInputTimer);
+    m_addressInputTimer = -1;
     return;
   }
 

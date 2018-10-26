@@ -28,7 +28,7 @@ const QString BITCOIN_IPC_PREFIX("parsicoin:");
 
 static QString ipcServerName()
 {
-    QString name("ParsiCoin");
+    QString name("parsicoin");
 
     return name;
 }
@@ -94,7 +94,7 @@ PaymentServer::PaymentServer(QApplication* parent) : QObject(parent), saveURIs(t
     uriServer = new QLocalServer(this);
 
     if (!uriServer->listen(name))
-        qDebug() << tr("Cannot start Parsicoin: click-to-pay handler");
+        qDebug() << tr("Cannot start parsicoin: click-to-pay handler");
     else
         connect(uriServer, SIGNAL(newConnection()), this, SLOT(handleURIConnection()));
 }

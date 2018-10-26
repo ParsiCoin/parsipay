@@ -443,7 +443,7 @@ public:
     m_core(currency, &m_protocolHandler, logManager, true),
     m_nodeServer(m_dispatcher, m_protocolHandler, logManager),
     m_node(m_core, m_protocolHandler) {
-       CryptoNote::Checkpoints checkpoints(logManager);
+	CryptoNote::Checkpoints checkpoints(logManager);
        for (const CryptoNote::CheckpointData& checkpoint : CryptoNote::CHECKPOINTS) {
           checkpoints.add_checkpoint(checkpoint.height, checkpoint.blockId);
        }

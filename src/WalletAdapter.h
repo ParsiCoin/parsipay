@@ -38,6 +38,7 @@ public:
 
   QString getAddress() const;
   quint64 getActualBalance() const;
+  quint64 getUnmixableBalance() const;
   quint64 getPendingBalance() const;
   quint64 getTransactionCount() const;
   quint64 getTransferCount() const;
@@ -46,8 +47,10 @@ public:
   bool getAccountKeys(CryptoNote::AccountKeys& _keys);
   bool isOpen() const;
   void sendTransaction(const QVector<CryptoNote::WalletLegacyTransfer>& _transfers, quint64 _fee, const QString& _payment_id, quint64 _mixin);
+  void sweepDust(const QVector<CryptoNote::WalletLegacyTransfer>& _transfers, quint64 _fee, const QString& _payment_id, quint64 _mixin);
   bool changePassword(const QString& _old_pass, const QString& _new_pass);
   void setWalletFile(const QString& _path);
+  Crypto::SecretKey getTxKey(Crypto::Hash& txid);
 
   void initCompleted(std::error_code _result) Q_DECL_OVERRIDE;
   void saveCompleted(std::error_code _result) Q_DECL_OVERRIDE;
@@ -55,6 +58,7 @@ public:
   void synchronizationCompleted(std::error_code _error) Q_DECL_OVERRIDE;
   void actualBalanceUpdated(uint64_t _actual_balance) Q_DECL_OVERRIDE;
   void pendingBalanceUpdated(uint64_t _pending_balance) Q_DECL_OVERRIDE;
+  void unmixableBalanceUpdated(uint64_t _dust_balance) Q_DECL_OVERRIDE;
   void externalTransactionCreated(CryptoNote::TransactionId _transaction_id) Q_DECL_OVERRIDE;
   void sendTransactionCompleted(CryptoNote::TransactionId _transaction_id, std::error_code _result) Q_DECL_OVERRIDE;
   void transactionUpdated(CryptoNote::TransactionId _transaction_id) Q_DECL_OVERRIDE;
@@ -101,6 +105,7 @@ Q_SIGNALS:
   void walletSynchronizationCompletedSignal(int _error, const QString& _error_text);
   void walletActualBalanceUpdatedSignal(quint64 _actual_balance);
   void walletPendingBalanceUpdatedSignal(quint64 _pending_balance);
+  void walletUnmixableBalanceUpdatedSignal(quint64 _dust_balance);
   void walletTransactionCreatedSignal(CryptoNote::TransactionId _transaction_id);
   void walletSendTransactionCompletedSignal(CryptoNote::TransactionId _transaction_id, int _error, const QString& _error_text);
   void walletTransactionUpdatedSignal(CryptoNote::TransactionId _transaction_id);

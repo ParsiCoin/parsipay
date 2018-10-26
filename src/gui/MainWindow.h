@@ -1,18 +1,18 @@
 // Copyright (c) 2011-2016 The Cryptonote developers
 // Copyright (c) 2015-2016 XDN developers
 // Copyright (c) 2016-2017 The Karbowanec developers
-// Copyright (c) 2018 The ParsiCoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #pragma once
 
+#include <QLocale>
+#include <QTranslator>
 #include <QLabel>
 #include <QPushButton>
 #include <QMainWindow>
 #include <QSystemTrayIcon>
 #include <QTimer>
-#include "ChangeLanguageDialog.h"
 #include "CommandLineParser.h"
 #include "PaymentServer.h"
 
@@ -39,6 +39,13 @@ public:
 protected:
   void closeEvent(QCloseEvent* _event) Q_DECL_OVERRIDE;
   bool event(QEvent* _event) Q_DECL_OVERRIDE;
+  void changeEvent(QEvent* _event) Q_DECL_OVERRIDE;
+
+protected slots:
+  void slotLanguageChanged(QAction* action);
+
+private slots:
+  void createLanguageMenu(void);
 
 private:
   PaymentServer* paymentServer;
@@ -57,6 +64,11 @@ private:
   QList<QAction*> recentFileActionList;
   const int maxRecentFiles;
 
+  QTranslator m_translator; // contains the translations for this application
+  QTranslator m_translatorQt; // contains the translations for qt
+  QString m_currLang; // contains the currently loaded language
+  QString m_langPath; // Path of language files. This is always fixed to /languages.
+
   static MainWindow* m_instance;
 
   QMenu *trayIconMenu;
@@ -66,9 +78,10 @@ private:
 
   void connectToSignals();
   void initUi();
+  void setMainWindowTitle();
   void createTrayIcon();
   void createTrayIconMenu();
-
+  void loadLanguage(const QString& rLanguage);
   void minimizeToTray(bool _on);
   void setStatusBarText(const QString& _text);
   void showMessage(const QString& _text, QtMsgType _type);
@@ -85,6 +98,7 @@ private:
   void onUriOpenSignal();
   void adjustForCurrentFile(const QString& filePath);
   void updateRecentActionList();
+  void updateUnmixableBalance(quint64 _balance);
 
   Q_SLOT void createWallet();
   Q_SLOT void createNonDeterministicWallet();
@@ -98,14 +112,14 @@ private:
   Q_SLOT void about();
   Q_SLOT void setStartOnLogin(bool _on);
   Q_SLOT void setMinimizeToTray(bool _on);
-  Q_SLOT void setMiningOnLaunch(bool _on);
   Q_SLOT void setCloseToTray(bool _on);
-  Q_SLOT void ChangeLanguage();
   Q_SLOT void showPrivateKeys();
   Q_SLOT void DisplayCmdLineHelp();
   Q_SLOT void openConnectionSettings();
   Q_SLOT void exportTrackingKey();
   Q_SLOT void importTrackingKey();
+  Q_SLOT void signMessage();
+  Q_SLOT void verifyMessage();
   Q_SLOT void openRecent();
   Q_SLOT void showStatusInfo();
   Q_SLOT void openLogFile();
@@ -113,6 +127,7 @@ private:
   Q_SLOT void showNormalIfMinimized(bool fToggleHidden = false);
   Q_SLOT void showMnemonicSeed();
   Q_SLOT void restoreFromMnemonicSeed();
+  Q_SLOT void sweepUnmixable();
 
   bool isObscured(QWidget *w);
   bool checkPoint(const QPoint &p, const QWidget *w);
@@ -124,10 +139,8 @@ public:
 private:
   void installDockHandler();
 #endif
-#ifdef Q_OS_WIN
-protected:
-  void changeEvent(QEvent* _event) Q_DECL_OVERRIDE;
 
+#ifdef Q_OS_WIN
 private:
   Q_SLOT void trayActivated(QSystemTrayIcon::ActivationReason _reason);
 #endif

@@ -2,4 +2,4 @@
 set(CN_PROJECT_NAME "parsipay")
 set(CN_CURRENCY_DISPLAY_NAME "ParsiCoin")
 set(CN_CURRENCY_TICKER "PARS")
-set(CN_VERSION 1.1.0)
+set(CN_VERSION 1.1.1)

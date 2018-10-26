@@ -37,7 +37,7 @@
    <string>MainWindow</string>
   </property>
   <property name="windowIcon">
-   <iconset>
+   <iconset resource="../../resources.qrc">
     <normaloff>:/images/cryptonote</normaloff>:/images/cryptonote</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
@@ -94,22 +94,6 @@
       </property>
      </widget>
     </item>
-    <item row="1" column="0">
-     <widget class="WalletGui::OverviewFrame" name="m_overviewFrame">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="frameShape">
-       <enum>QFrame::NoFrame</enum>
-      </property>
-      <property name="frameShadow">
-       <enum>QFrame::Raised</enum>
-      </property>
-     </widget>
-    </item>
     <item row="1" column="3">
      <widget class="WalletGui::TransactionsFrame" name="m_transactionsFrame">
       <property name="sizePolicy">
@@ -126,8 +110,8 @@
       </property>
      </widget>
     </item>
-    <item row="1" column="1">
-     <widget class="WalletGui::SendFrame" name="m_sendFrame">
+    <item row="1" column="0">
+     <widget class="WalletGui::OverviewFrame" name="m_overviewFrame">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
         <horstretch>0</horstretch>
@@ -139,6 +123,16 @@
       </property>
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="5">
+     <widget class="WalletGui::NoWalletFrame" name="m_noWalletFrame" native="true">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
       </property>
      </widget>
     </item>
@@ -158,8 +152,8 @@
       </property>
      </widget>
     </item>
-    <item row="1" column="5">
-     <widget class="WalletGui::MiningFrame" name="m_miningFrame">
+    <item row="1" column="1">
+     <widget class="WalletGui::SendFrame" name="m_sendFrame">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
         <horstretch>0</horstretch>
@@ -215,20 +209,13 @@
     <addaction name="m_openWalletAction"/>
     <addaction name="menuRecent_wallets"/>
     <addaction name="m_backupWalletAction"/>
-    <addaction name="m_resetAction"/>
     <addaction name="m_closeWalletAction"/>
     <addaction name="separator"/>
     <addaction name="m_openUriAction"/>
     <addaction name="m_openLogFileAction"/>
     <addaction name="separator"/>
-    <addaction name="m_showMnemonicSeedAction"/>
-    <addaction name="m_restoreFromMnemonicSeedAction"/>
-    <addaction name="separator"/>
-    <addaction name="m_showPrivateKey"/>
-    <addaction name="m_importKeyAction"/>
-    <addaction name="separator"/>
-    <addaction name="m_exportTrackingKeyAction"/>
-    <addaction name="m_importTrackingKeyAction"/>
+    <addaction name="m_signMessageAction"/>
+    <addaction name="m_verifySignedMessageAction"/>
     <addaction name="separator"/>
     <addaction name="m_exitAction"/>
    </widget>
@@ -236,9 +223,12 @@
     <property name="title">
      <string>Settings</string>
     </property>
-    <addaction name="m_encryptWalletAction"/>
-    <addaction name="m_changePasswordAction"/>
-    <addaction name="m_changeLanguageAction"/>
+    <widget class="QMenu" name="menuLanguage">
+     <property name="title">
+      <string>Language</string>
+     </property>
+    </widget>
+    <addaction name="menuLanguage"/>
     <addaction name="m_connectionSettingsAction"/>
     <addaction name="separator"/>
     <addaction name="m_startOnLoginAction"/>
@@ -251,8 +241,28 @@
     </property>
     <addaction name="m_aboutCryptonoteAction"/>
     <addaction name="m_aboutQtAction"/>
+    <addaction name="actionHelp"/>
+   </widget>
+   <widget class="QMenu" name="menuWallet">
+    <property name="title">
+     <string>Wallet</string>
+    </property>
+    <addaction name="m_encryptWalletAction"/>
+    <addaction name="m_changePasswordAction"/>
+    <addaction name="m_sweepUnmixableAction"/>
+    <addaction name="separator"/>
+    <addaction name="m_showMnemonicSeedAction"/>
+    <addaction name="m_showPrivateKey"/>
+    <addaction name="m_exportTrackingKeyAction"/>
+    <addaction name="separator"/>
+    <addaction name="m_restoreFromMnemonicSeedAction"/>
+    <addaction name="m_importKeyAction"/>
+    <addaction name="m_importTrackingKeyAction"/>
+    <addaction name="separator"/>
+    <addaction name="m_resetAction"/>
    </widget>
    <addaction name="menuFile"/>
+   <addaction name="menuWallet"/>
    <addaction name="menuSettings"/>
    <addaction name="menuHelp"/>
   </widget>
@@ -343,7 +353,7 @@
      <normaloff>:/icons/overview</normaloff>:/icons/overview</iconset>
    </property>
    <property name="text">
-    <string> Overview               ></string>
+    <string>Overview</string>
    </property>
   </action>
   <action name="m_sendAction">
@@ -358,7 +368,7 @@
      <normaloff>:/icons/send</normaloff>:/icons/send</iconset>
    </property>
    <property name="text">
-    <string> Send                        ></string>
+    <string>Send</string>
    </property>
   </action>
   <action name="m_receiveAction">
@@ -373,7 +383,7 @@
      <normaloff>:/icons/receive</normaloff>:/icons/receive</iconset>
    </property>
    <property name="text">
-    <string>  Receive                   ></string>
+    <string>Receive</string>
    </property>
   </action>
   <action name="m_transactionsAction">
@@ -388,7 +398,7 @@
      <normaloff>:/icons/transactions</normaloff>:/icons/transactions</iconset>
    </property>
    <property name="text">
-    <string>  Transactions       ></string>
+    <string>Transactions</string>
    </property>
   </action>
   <action name="m_exitAction">
@@ -414,7 +424,7 @@
      <normaloff>:/icons/address-book</normaloff>:/icons/address-book</iconset>
    </property>
    <property name="text">
-    <string> Contacts               ></string>
+    <string>Contacts</string>
    </property>
   </action>
   <action name="m_createWalletAction">
@@ -513,17 +523,17 @@
     <string>Reset wallet</string>
    </property>
   </action>
-  <action name="m_changeLanguageAction">
-   <property name="text">
-    <string>Language</string>
-   </property>
-   <property name="toolTip">
-    <string>Change language</string>
-   </property>
-  </action>
   <action name="m_showPrivateKey">
    <property name="text">
     <string>Export private key</string>
+   </property>
+  </action>
+  <action name="actionHelp">
+   <property name="text">
+    <string>Help</string>
+   </property>
+   <property name="shortcut">
+    <string>F1</string>
    </property>
   </action>
   <action name="m_connectionSettingsAction">
@@ -568,7 +578,7 @@
   </action>
   <action name="m_showMnemonicSeedAction">
    <property name="enabled">
-    <bool>false</bool>
+    <bool>true</bool>
    </property>
    <property name="text">
     <string>Show mnemonic seed</string>
@@ -582,6 +592,21 @@
   <action name="m_createNondeterministicWalletAction">
    <property name="text">
     <string>Create nondeterministic wallet</string>
+   </property>
+  </action>
+  <action name="m_sweepUnmixableAction">
+   <property name="text">
+    <string>Sweep unmixable</string>
+   </property>
+  </action>
+  <action name="m_signMessageAction">
+   <property name="text">
+    <string>Sign message</string>
+   </property>
+  </action>
+  <action name="m_verifySignedMessageAction">
+   <property name="text">
+    <string>Verify signed message</string>
    </property>
   </action>
  </widget>
@@ -617,15 +642,15 @@
    <container>1</container>
   </customwidget>
   <customwidget>
-   <class>WalletGui::MiningFrame</class>
-   <extends>QFrame</extends>
-   <header>gui/MiningFrame.h</header>
-   <container>1</container>
-  </customwidget>
-  <customwidget>
    <class>WalletGui::ReceiveFrame</class>
    <extends>QFrame</extends>
    <header>gui/ReceiveFrame.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>WalletGui::NoWalletFrame</class>
+   <extends>QWidget</extends>
+   <header>gui/NoWalletFrame.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>
@@ -686,22 +711,6 @@
    <signal>triggered()</signal>
    <receiver>MainWindow</receiver>
    <slot>encryptWallet()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>-1</x>
-     <y>-1</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>449</x>
-     <y>299</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>m_changeLanguageAction</sender>
-   <signal>triggered()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>ChangeLanguage()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>-1</x>
@@ -854,6 +863,22 @@
     <hint type="destinationlabel">
      <x>459</x>
      <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionHelp</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>DisplayCmdLineHelp()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>494</x>
+     <y>319</y>
     </hint>
    </hints>
   </connection>
@@ -1070,6 +1095,38 @@
    <signal>triggered()</signal>
    <receiver>MainWindow</receiver>
    <slot>createNonDeterministicWallet()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>489</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>m_signMessageAction</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>signMessage()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>489</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>m_verifySignedMessageAction</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>verifyMessage()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>-1</x>

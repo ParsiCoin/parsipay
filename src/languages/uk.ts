@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="uk_UA" sourcelanguage="en">
+<TS version="2.0" language="uk_UA" sourcelanguage="en">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -12,19 +12,19 @@
         <translation>Закрити</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ParsiCoin v. %1&lt;/p&gt;&lt;p&gt;This is the next generation anonymous cryptocurrency based on CryptoNote.&lt;/p&gt;&lt;p&gt;Copyright (c) 2012-2015. CryptoNote Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2015-2016. DigitalNote Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2018. ParsiCoin Developers&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://opensource.org/licenses/MIT&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cryptonote.org/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://cryptonote.org/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://parsicoin.net/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://parsicoin.net/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ParsiCoin версія %1&lt;/p&gt;&lt;p&gt;Це криптовалюта нового покоління на основі CryptoNote.&lt;/p&gt;&lt;p&gt;Copyright (c) 2012-2015. CryptoNote Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2015-2016. DigitalNote Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2018. ParsiCoin Developers&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://opensource.org/licenses/MIT&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cryptonote.org/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://cryptonote.org/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://parsicoin.net/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://parsicoin.net/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ParsiCoin v. %1&lt;/p&gt;&lt;p&gt;This is the next generation anonymous cryptocurrency based on CryptoNote.&lt;/p&gt;&lt;p&gt;Copyright (c) 2012-2015. CryptoNote Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2015-2016. DigitalNote Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2018. ParsiCoin Developers&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://opensource.org/licenses/MIT&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cryptonote.org/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://cryptonote.org/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://ParsiCoin.Net/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://ParsiCoin.Net/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ParsiCoin версія %1&lt;/p&gt;&lt;p&gt;Це криптовалюта нового покоління на основі CryptoNote.&lt;/p&gt;&lt;p&gt;Copyright (c) 2012-2015. CryptoNote Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2015-2016. DigitalNote Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2018. ParsiCoin Developers&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://opensource.org/licenses/MIT&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cryptonote.org/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://cryptonote.org/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://ParsiCoin.Net/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://ParsiCoin.Net/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ParsiCoin v. %1&lt;/p&gt;&lt;p&gt;This is the next generation anonymous cryptocurrency based on CryptoNote.&lt;/p&gt;&lt;p&gt;Copyright (c) 2012-2015. CryptoNote Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2012-2016. Bytecoin Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2015-2016. DigitalNote Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2018. ParsiCoin (PARS) Developers&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://opensource.org/licenses/MIT&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cryptonote.org/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://cryptonote.org/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://parsicoin.net/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://parsicoin.net/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;THE SOFTWARE IS PROVIDED &amp;quot;AS IS&amp;quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ParsiCoin в. %1&lt;/p&gt;&lt;p&gt;Це криптовалюта нового покоління на основі CryptoNote.&lt;/p&gt;&lt;p&gt;Copyright (c) 2012-2015. CryptoNote Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2012-2016. Bytecoin Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2015-2016. DigitalNote Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2018. ParsiCoin (PARS) Developers&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://opensource.org/licenses/MIT&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cryptonote.org/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://cryptonote.org/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://parsicoin.net/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://parsicoin.net/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;ЦЕ ПРОГРАМНЕ ЗАБЕЗПЕЧЕННЯ НАДАЄТЬСЯ &amp;quot;ЯК Є&amp;quot;, БЕЗ ГАРАНТІЙ БУДЬ-ЯКОГО ВИДУ, ПРЯМИХ АБО НЕПРЯМИХ, ВКЛЮЧАЮЧИ, АЛЕ НЕ ОБМЕЖУЮЧИСЬ, ГАРАНТІЯМИ КОМЕРЦІЙНОЇ ВИГОДИ, ВІДПОВІДНОСТІ ЙОГО КОНКРЕТНОМУ ПРИЗНАЧЕННЮ Й ВІДСУТНОСТІ ПОРУШЕННЯ ПРАВ. У ЖОДНОМУ РАЗІ АВТОРИ АБО ВЛАСНИКИ АВТОРСЬКИХ ПРАВ НЕ ВІДПОВІДАЮТЬ ЗА БУДЬ-ЯКИМИ СУДОВИМИ ПОЗОВАМИ, ЩОДО ЗБИТКІВ АБО ІНШИХ ПРЕТЕНЗІЙ, ЧИ ДІЙ ДОГОВОРУ, ЦИВІЛЬНОГО ПРАВОПОРУШЕННЯ АБО ІНШИХ, ЩО ВИНИКАЮТЬ ПОЗА, АБО У ЗВ'ЯЗКУ З ПРОГРАМНИМ ЗАБЕЗПЕЧЕННЯМ АБО ВИКОРИСТАННЯМ ЧИ ІНШИМИ ДІЯМИ ПРОГРАМНОГО ЗАБЕЗПЕЧЕННЯ.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ParsiCoin v. %1&lt;/p&gt;&lt;p&gt;This is the next generation anonymous cryptocurrency based on CryptoNote.&lt;/p&gt;&lt;p&gt;Copyright (c) 2012-2015. CryptoNote Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2012-2016. Bytecoin Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2015-2016. DigitalNote Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2018. ParsiCoin Developers&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://opensource.org/licenses/MIT&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cryptonote.org/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://cryptonote.org/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://ParsiCoin.Net/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://ParsiCoin.Net/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;THE SOFTWARE IS PROVIDED &amp;quot;AS IS&amp;quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ParsiCoin в. %1&lt;/p&gt;&lt;p&gt;Це криптовалюта нового покоління на основі CryptoNote.&lt;/p&gt;&lt;p&gt;Copyright (c) 2012-2015. CryptoNote Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2012-2016. Bytecoin Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2015-2016. DigitalNote Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2018. ParsiCoin Developers&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://opensource.org/licenses/MIT&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cryptonote.org/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://cryptonote.org/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://ParsiCoin.Net/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://ParsiCoin.Net/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;ЦЕ ПРОГРАМНЕ ЗАБЕЗПЕЧЕННЯ НАДАЄТЬСЯ &amp;quot;ЯК Є&amp;quot;, БЕЗ ГАРАНТІЙ БУДЬ-ЯКОГО ВИДУ, ПРЯМИХ АБО НЕПРЯМИХ, ВКЛЮЧАЮЧИ, АЛЕ НЕ ОБМЕЖУЮЧИСЬ, ГАРАНТІЯМИ КОМЕРЦІЙНОЇ ВИГОДИ, ВІДПОВІДНОСТІ ЙОГО КОНКРЕТНОМУ ПРИЗНАЧЕННЮ Й ВІДСУТНОСТІ ПОРУШЕННЯ ПРАВ. У ЖОДНОМУ РАЗІ АВТОРИ АБО ВЛАСНИКИ АВТОРСЬКИХ ПРАВ НЕ ВІДПОВІДАЮТЬ ЗА БУДЬ-ЯКИМИ СУДОВИМИ ПОЗОВАМИ, ЩОДО ЗБИТКІВ АБО ІНШИХ ПРЕТЕНЗІЙ, ЧИ ДІЙ ДОГОВОРУ, ЦИВІЛЬНОГО ПРАВОПОРУШЕННЯ АБО ІНШИХ, ЩО ВИНИКАЮТЬ ПОЗА, АБО У ЗВ&apos;ЯЗКУ З ПРОГРАМНИМ ЗАБЕЗПЕЧЕННЯМ АБО ВИКОРИСТАННЯМ ЧИ ІНШИМИ ДІЯМИ ПРОГРАМНОГО ЗАБЕЗПЕЧЕННЯ.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
     <name>AccountFrame</name>
     <message>
         <source>Address:</source>
-        <translation type="vanished">Адреса:</translation>
+        <translation>Адреса:</translation>
     </message>
     <message>
         <source>...</source>
@@ -32,7 +32,7 @@
     </message>
     <message>
         <source>Show private key</source>
-        <translation type="vanished">Показати приватний ключ</translation>
+        <translation>Показати приватний ключ</translation>
     </message>
     <message>
         <source>Your account:</source>
@@ -56,7 +56,7 @@
     </message>
     <message>
         <source> PARS</source>
-        <translation> PARS.</translation>
+        <translation> крб.</translation>
     </message>
     <message>
         <source>Frame</source>
@@ -68,7 +68,7 @@
     </message>
     <message>
         <source>0.00</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">0.00</translation>
     </message>
 </context>
 <context>
@@ -90,11 +90,11 @@
     </message>
     <message>
         <source>New address</source>
-        <translation type="vanished">Додати адресу</translation>
+        <translation>Додати адресу</translation>
     </message>
     <message>
         <source>Delete address</source>
-        <translation type="vanished">Видалити адресу</translation>
+        <translation>Видалити адресу</translation>
     </message>
     <message>
         <source>Copy address</source>
@@ -167,6 +167,10 @@
         <source>Français</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Português</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ChangePasswordDialog</name>
@@ -203,7 +207,7 @@
     <name>ConfirmSendDialog</name>
     <message>
         <source>Confirm sending %1 PARS</source>
-        <translation>Підтвердіть надсилання %1 PARS.</translation>
+        <translation>Підтвердіть надсилання %1 крб.</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Are you sure you want to send &lt;strong&gt;%1 PARS&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
@@ -269,12 +273,12 @@
         <translation>Додати вузол</translation>
     </message>
     <message>
-        <source>Wallet will connect to remote node running in local or global network. Please select node or specify IP address or domain name and port. In this mode wallet sends 0.25% fee from each transaction to the node, but no more than 10 PARS.</source>
-        <translation>Гаманець підключатиметься до віддаленого вузла, що запущений у локальній або глобальній мережі. Виберіть вузол, або вкажіть IP адресу чи домен та порт нового вузла. У цьому режимі він сплачує комісію для вузла в розмірі 0,25% від суми переказу, але не більше 10 PARS.</translation>
-    </message>
-    <message>
         <source>Remove node</source>
         <translation>Видалити вузол</translation>
+    </message>
+    <message>
+        <source>Wallet will connect to remote node running in local or global network. Please select node or specify IP address or domain name and port. In this mode wallet sends 0.25% fee from each transaction to the node, but no more than 1 PARS.</source>
+        <translation>Гаманець підключатиметься до віддаленого вузла, що запущений у локальній або глобальній мережі. Виберіть вузол, або вкажіть IP адресу чи домен та порт нового вузла. У цьому режимі він сплачує комісію для вузла в розмірі 0,25% від суми переказу, але не більше 1 PARS.</translation>
     </message>
 </context>
 <context>
@@ -286,7 +290,7 @@
     <message>
         <source>%1 wallet is saving data.
 Please wait...</source>
-        <translation>Гаманець записує дані.
+        <translation>Гаманець %1 записує дані.
 Зачекайте будь-ласка...</translation>
     </message>
 </context>
@@ -339,6 +343,14 @@ Please wait...</source>
         <source>OK</source>
         <translation>Гаразд</translation>
     </message>
+    <message>
+        <source>Where to save new wallet file:</source>
+        <translation>Куди зберегти файл  нового гаманця:</translation>
+    </message>
+    <message>
+        <source>Select folder</source>
+        <translation>Вибрати каталог</translation>
+    </message>
 </context>
 <context>
     <name>ImportTrackingKeyDialog</name>
@@ -348,7 +360,7 @@ Please wait...</source>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation type="obsolete">...</translation>
     </message>
     <message>
         <source>Key:</source>
@@ -369,6 +381,14 @@ Please wait...</source>
     <message>
         <source>OK</source>
         <translation>Гаразд</translation>
+    </message>
+    <message>
+        <source>Where to save new wallet file:</source>
+        <translation>Куди зберегти файл вашого нового гаманця:</translation>
+    </message>
+    <message>
+        <source>Select folder</source>
+        <translation>Вибрати каталог</translation>
     </message>
 </context>
 <context>
@@ -470,7 +490,7 @@ Please wait...</source>
     </message>
     <message>
         <source>Address Book</source>
-        <translation type="vanished">Адресна книжка</translation>
+        <translation>Адресна книжка</translation>
     </message>
     <message>
         <source>Create wallet</source>
@@ -538,7 +558,7 @@ Please wait...</source>
     </message>
     <message>
         <source>Show private key</source>
-        <translation type="vanished">Показати приватний ключ</translation>
+        <translation>Показати приватний ключ</translation>
     </message>
     <message>
         <source>F1</source>
@@ -582,11 +602,11 @@ Please wait...</source>
     </message>
     <message>
         <source>Status</source>
-        <translation type="vanished">Стан</translation>
+        <translation>Стан</translation>
     </message>
     <message>
         <source>Tools</source>
-        <translation type="vanished">Інструменти</translation>
+        <translation>Інструменти</translation>
     </message>
     <message>
         <source>Open log file</source>
@@ -608,16 +628,28 @@ Please wait...</source>
         <source>Start pool mining automatically</source>
         <translation>Запускати карбування при старті</translation>
     </message>
+    <message>
+        <source>Wallet</source>
+        <translation>Гаманець</translation>
+    </message>
+    <message>
+        <source>Sweep unmixable</source>
+        <translation>Прибрати незмішуване</translation>
+    </message>
+    <message>
+        <source>Sign message</source>
+        <translation>Підписати повідомлення</translation>
+    </message>
+    <message>
+        <source>Verify signed message</source>
+        <translation>Перевірити підписане повідомлення</translation>
+    </message>
 </context>
 <context>
     <name>MiningFrame</name>
     <message>
-        <source>Frame</source>
-        <translation></translation>
-    </message>
-    <message>
         <source>Mining status</source>
-        <translation type="vanished">Стан карбування</translation>
+        <translation>Стан карбування</translation>
     </message>
     <message>
         <source>CPU cores</source>
@@ -641,7 +673,7 @@ Please wait...</source>
     </message>
     <message>
         <source>Pause mining</source>
-        <translation type="vanished">Призупинити карбування</translation>
+        <translation>Призупинити карбування</translation>
     </message>
     <message>
         <source>Settings</source>
@@ -661,7 +693,7 @@ Please wait...</source>
     </message>
     <message>
         <source>Status</source>
-        <translation type="vanished">Стан</translation>
+        <translation>Стан</translation>
     </message>
     <message>
         <source>Remove pool</source>
@@ -788,6 +820,25 @@ Please wait...</source>
     </message>
 </context>
 <context>
+    <name>NoWalletFrame</name>
+    <message>
+        <source>Frame</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Welcome to ParsiCoin Wallet!</source>
+        <translation>Вітаємо в гаманці Карбованця!</translation>
+    </message>
+    <message>
+        <source>Create wallet</source>
+        <translation>Створити гаманець</translation>
+    </message>
+    <message>
+        <source>Open wallet</source>
+        <translation>Відкрити гаманець</translation>
+    </message>
+</context>
+<context>
     <name>OpenUriDialog</name>
     <message>
         <source>Open payment request</source>
@@ -795,7 +846,7 @@ Please wait...</source>
     </message>
     <message>
         <source>URI:</source>
-        <translation type="unfinished"></translation>
+        <translation>URI:</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -818,7 +869,7 @@ Please wait...</source>
     </message>
     <message>
         <source>Wallet</source>
-        <translation type="vanished">Гаманець</translation>
+        <translation>Гаманець</translation>
     </message>
     <message>
         <source>Unconfirmed:</source>
@@ -826,7 +877,7 @@ Please wait...</source>
     </message>
     <message>
         <source>Balance:</source>
-        <translation type="vanished">Баланс:</translation>
+        <translation>Баланс:</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -839,6 +890,14 @@ Please wait...</source>
     <message>
         <source>Available balance:</source>
         <translation>Доступний баланс:</translation>
+    </message>
+    <message>
+        <source>Unmixable dust:</source>
+        <translation>Незмішуване:</translation>
+    </message>
+    <message>
+        <source>0.00</source>
+        <translation>0.00</translation>
     </message>
 </context>
 <context>
@@ -867,8 +926,8 @@ Please wait...</source>
 <context>
     <name>PaymentServer</name>
     <message>
-        <source>Cannot start PARS: click-to-pay handler</source>
-        <translation>Не вдалося запустити click-to-pay обробник PARS:</translation>
+        <source>Cannot start parsicoin: click-to-pay handler</source>
+        <translation>Не вдалося запустити click-to-pay обробник parsicoin:</translation>
     </message>
 </context>
 <context>
@@ -883,13 +942,13 @@ Please wait...</source>
     </message>
     <message>
         <source>...</source>
-        <translation type="vanished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <source>Copy key</source>
         <translation>Скопіювати ключ</translation>
     </message>
-	<message>
+    <message>
         <source>Private Keys</source>
         <translation>Приватні ключі</translation>
     </message>
@@ -921,8 +980,8 @@ Please wait...</source>
         <translation>Завантажується ланцюжок блоків...</translation>
     </message>
     <message>
-        <source>%1 wallet already running</source>
-        <translation>Гаманець Карбованця вже працює</translation>
+        <source>%1 wallet already running or cannot create lock file %2. Check your permissions.</source>
+        <translation>Гаманець Карбованця вже працює, або не може створити файл блокування %2. Перевірте права на запис.</translation>
     </message>
     <message>
         <source>New version available</source>
@@ -963,7 +1022,7 @@ Do you want to go to download page?</source>
     </message>
     <message>
         <source>Enter a label for this payer</source>
-        <translation type="vanished">Назва платника</translation>
+        <translation>Назва платника</translation>
     </message>
     <message>
         <source>Amount:</source>
@@ -1006,7 +1065,7 @@ Do you want to go to download page?</source>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation type="obsolete">...</translation>
     </message>
     <message>
         <source>Wallet path:</source>
@@ -1019,6 +1078,14 @@ Do you want to go to download page?</source>
     <message>
         <source>OK</source>
         <translation>Гаразд</translation>
+    </message>
+    <message>
+        <source>Where to save new wallet file:</source>
+        <translation>Куди зберегти файл вашого нового гаманця:</translation>
+    </message>
+    <message>
+        <source>Select folder</source>
+        <translation>Вибрати каталог</translation>
     </message>
 </context>
 <context>
@@ -1049,7 +1116,7 @@ Do you want to go to download page?</source>
     </message>
     <message>
         <source>Balance:</source>
-        <translation type="vanished">Баланс:</translation>
+        <translation>Баланс:</translation>
     </message>
     <message>
         <source>Fee:</source>
@@ -1079,6 +1146,34 @@ Do you want to go to download page?</source>
         <source>Available balance:</source>
         <translation>Доступний баланс:</translation>
     </message>
+    <message>
+        <source>Payment ID:</source>
+        <translation>Ідентифікатор:</translation>
+    </message>
+    <message>
+        <source>Anonymity:</source>
+        <translation>Конфіденційність:</translation>
+    </message>
+    <message>
+        <source>Priority:</source>
+        <translation>Пріорітет:</translation>
+    </message>
+    <message>
+        <source>Manual fee override:</source>
+        <translation>Ручне коригування комісії:</translation>
+    </message>
+    <message>
+        <source>Advanced</source>
+        <translation>Розширені</translation>
+    </message>
+    <message>
+        <source>Remote mode</source>
+        <translation>Віддалений режим</translation>
+    </message>
+    <message>
+        <source>Send All</source>
+        <translation>Вислати все</translation>
+    </message>
 </context>
 <context>
     <name>ShowPaymentRequestDialog</name>
@@ -1105,6 +1200,37 @@ Do you want to go to download page?</source>
     <message>
         <source>Close</source>
         <translation>Закрити</translation>
+    </message>
+</context>
+<context>
+    <name>SignMessageDialog</name>
+    <message>
+        <source>Sign or verify message</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Закрити</translation>
+    </message>
+    <message>
+        <source>Sign message</source>
+        <translation>Підписати повідомлення</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Повідомлення</translation>
+    </message>
+    <message>
+        <source>Signature</source>
+        <translation>Підпис</translation>
+    </message>
+    <message>
+        <source>Verify message</source>
+        <translation>Перевірити повідомлення</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Адреса</translation>
     </message>
 </context>
 <context>
@@ -1176,11 +1302,11 @@ Do you want to go to download page?</source>
     </message>
     <message>
         <source>Label:</source>
-        <translation type="vanished">Контакт:</translation>
+        <translation>Контакт:</translation>
     </message>
     <message>
         <source>Add to Contacts:</source>
-        <translation type="vanished">Додати в контакти:</translation>
+        <translation>Додати в контакти:</translation>
     </message>
     <message>
         <source>Select recipient from Address Book</source>
@@ -1192,7 +1318,7 @@ Do you want to go to download page?</source>
     </message>
     <message>
         <source>Save to Contacts:</source>
-        <translation type="vanished">Зберегти в контакти:</translation>
+        <translation>Зберегти в контакти:</translation>
     </message>
     <message>
         <source>Save to Contacts as:</source>
@@ -1252,11 +1378,11 @@ Do you want to go to download page?</source>
     <name>WalletGui::AccountFrame</name>
     <message>
         <source>Hide private keys</source>
-        <translation type="vanished">Сховати приватні ключі</translation>
+        <translation>Сховати приватні ключі</translation>
     </message>
     <message>
         <source>Show private keys</source>
-        <translation type="vanished">Показати приватні ключі</translation>
+        <translation>Показати приватні ключі</translation>
     </message>
     <message>
         <source>Copied to clipboard</source>
@@ -1279,7 +1405,7 @@ Do you want to go to download page?</source>
     </message>
     <message>
         <source>Contact with such label and address already exists.</source>
-        <translation type="vanished">Контакт з такою назвою й адресою вже є.</translation>
+        <translation>Контакт з такою назвою й адресою вже є.</translation>
     </message>
     <message>
         <source>Copy &amp;label</source>
@@ -1304,6 +1430,10 @@ Do you want to go to download page?</source>
     <message>
         <source>Contact with such label already exists.</source>
         <translation>Контакт з такою назвою вже є.</translation>
+    </message>
+    <message>
+        <source>&amp;Pay to</source>
+        <translation>&amp;Заплатити цьому контакту</translation>
     </message>
 </context>
 <context>
@@ -1395,7 +1525,7 @@ Do you want to go to download page?</source>
         <translation>Запустити програму мінімізовану</translation>
     </message>
     <message>
-        <source>PARS wallet</source>
+        <source>parsicoin wallet</source>
         <translation>Гаманець карбованця</translation>
     </message>
     <message>
@@ -1449,6 +1579,10 @@ Do you want to go to download page?</source>
     <message>
         <source>Tracking wallets (*.trackingwallet)</source>
         <translation>Гаманці стеження (*.trackingwallet)</translation>
+    </message>
+    <message>
+        <source>Tracking wallets (*.wallet)</source>
+        <translation>Гаманці стеження (*.wallet)</translation>
     </message>
 </context>
 <context>
@@ -1524,7 +1658,7 @@ Are you sure?</source>
     </message>
     <message>
         <source>%1 peers</source>
-        <translation type="vanished">%1 пірів</translation>
+        <translation>%1 пірів</translation>
     </message>
     <message>
         <source>Synchronization in progress</source>
@@ -1548,11 +1682,11 @@ Are you sure?</source>
     </message>
     <message>
         <source>%1 Wallet %2</source>
-        <translation type="vanished">Карбованець в. %2 (%1)</translation>
+        <translation>ParsiCoin в. %2 (%1)</translation>
     </message>
     <message>
-        <source>More info can be found at www.parsicoin.net in Documentation section</source>
-        <translation>Більше інформації на сайті www.parsicoin.net у розділі Документація.</translation>
+        <source>More info can be found at www.ParsiCoin.Net in Documentation section</source>
+        <translation>Більше інформації на сайті www.ParsiCoin.Net у розділі Документація.</translation>
     </message>
     <message>
         <source>Connection settings changed</source>
@@ -1564,7 +1698,7 @@ Are you sure?</source>
     </message>
     <message>
         <source>Account toolbar</source>
-        <translation type="vanished">Рахунок</translation>
+        <translation>Рахунок</translation>
     </message>
     <message>
         <source>Tracking wallet. Spending unawailable</source>
@@ -1583,8 +1717,8 @@ Are you sure?</source>
         </translation>
     </message>
     <message>
-        <source>PARS Wallet %1</source>
-        <translation>Карбованець в. %1</translation>
+        <source>ParsiCoin Wallet %1</source>
+        <translation>ParsiCoin в. %1</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -1596,15 +1730,15 @@ Are you sure?</source>
     </message>
     <message>
         <source>Total amount: %1, hash: %2</source>
-        <translation type="vanished">Сума: %1, хеш: %2</translation>
+        <translation>Сума: %1, хеш: %2</translation>
     </message>
     <message>
-        <source>PARS Wallet</source>
-        <translation type="vanished">Карбованець</translation>
+        <source>ParsiCoin Wallet</source>
+        <translation>ParsiCoin</translation>
     </message>
     <message>
         <source>New transaction received</source>
-        <translation type="vanished">Отримано нову транзакцію</translation>
+        <translation>Отримано нову транзакцію</translation>
     </message>
     <message>
         <source>Mnemonic seed is not correct</source>
@@ -1658,12 +1792,24 @@ Are you sure?</source>
         <source>Wrong wallet file extension, wallet file should have &quot;.wallet&quot;, &quot;.keys&quot; or &quot;.trackingwallet&quot; extension.</source>
         <translation>Неправильне розширення файлу, файл гаманця мусить мати розширення &quot;.wallet&quot;, &quot;.keys&quot; або &quot;.trackingwallet&quot;.</translation>
     </message>
+    <message>
+        <source>Current Language changed to %1</source>
+        <translation type="obsolete">Поточна мова змінена на %1</translation>
+    </message>
+    <message>
+        <source>Language changed to %1. The change will take effect after restarting the wallet.</source>
+        <translation>Мова змінена на %1. Вона стане активна після перезапуску гаманця.</translation>
+    </message>
+    <message>
+        <source>Language changed to %1</source>
+        <translation>Мова змінена на %1</translation>
+    </message>
 </context>
 <context>
     <name>WalletGui::MiningFrame</name>
     <message>
         <source>Mining. Hashrate: %1 H/s</source>
-        <translation type="vanished">Карбую. Хешрейт: %1 H/s</translation>
+        <translation>Карбую. Хешрейт: %1 H/s</translation>
     </message>
     <message>
         <source>Error: %1</source>
@@ -1730,7 +1876,7 @@ Are you sure?</source>
     <name>WalletGui::ReceiveFrame</name>
     <message>
         <source>New PNG file</source>
-        <translation type="vanished">Новий файл PNG</translation>
+        <translation>Новий файл PNG</translation>
     </message>
     <message>
         <source>Save QR Code</source>
@@ -1763,8 +1909,8 @@ Are you sure?</source>
         <translation>Неправильний ідентифікатор платежу</translation>
     </message>
     <message>
-        <source>Payment request should start with PARS:</source>
-        <translation>Платіжна вимога повинна починатись з PARS:</translation>
+        <source>Payment request should start with parsicoin:</source>
+        <translation>Платіжна вимога повинна починатись з parsicoin:</translation>
     </message>
     <message>
         <source>Insufficient balance</source>
@@ -1773,6 +1919,66 @@ Are you sure?</source>
     <message>
         <source>Available balance is insufficient to send this transaction. Have you excluded a fee?</source>
         <translation>Доступного балансу недостатньо щоб вислати цю транзакцію. Ви не забули відняти комісію?</translation>
+    </message>
+    <message>
+        <source>Low</source>
+        <translation>Низький</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Нормальний</translation>
+    </message>
+    <message>
+        <source>High</source>
+        <translation>Високий</translation>
+    </message>
+    <message>
+        <source>Highest</source>
+        <translation>Найвищий</translation>
+    </message>
+    <message>
+        <source>Node fee: %1 %2</source>
+        <translation>Комісія вузла: %1 %2</translation>
+    </message>
+    <message>
+        <source>You have unmixable dust on balance. Use menu &apos;Wallet -&gt; Sweep unmixable&apos; first.</source>
+        <translation>У вас є незмішуваний баланс. Спершу скористайтесь меню “Гаманець -&gt; Прибрати незмішуване&quot;.</translation>
+    </message>
+</context>
+<context>
+    <name>WalletGui::SendGlassFrame</name>
+    <message>
+        <source>Synchronizing</source>
+        <translation>Триває синхронізація</translation>
+    </message>
+    <message>
+        <source>You will be able to send %1
+when the wallet is synchronized</source>
+        <translation>Ви зможете надсилати %1
+коли гаманець завершить синхронізацію</translation>
+    </message>
+</context>
+<context>
+    <name>WalletGui::SignMessageDialog</name>
+    <message>
+        <source>Sign message</source>
+        <translation>Підписати повідомлення</translation>
+    </message>
+    <message>
+        <source>Verify signed message</source>
+        <translation>Перевірити підписане повідомлення</translation>
+    </message>
+    <message>
+        <source>Signature is valid</source>
+        <translation>Підпис дійсний</translation>
+    </message>
+    <message>
+        <source>Signature is invalid!</source>
+        <translation>Підпис недійсний!</translation>
+    </message>
+    <message>
+        <source>Address is invalid!</source>
+        <translation>Адреса недійсна!</translation>
     </message>
 </context>
 <context>
@@ -1812,6 +2018,32 @@ Are you sure?</source>
             <numerusform>%n підтвердження</numerusform>
             <numerusform>%n підтверджень</numerusform>
         </translation>
+    </message>
+    <message>
+        <source>&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Cantarell&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Status: &lt;/span&gt;%1&lt;br&gt;
+&lt;span style=&quot; font-weight:600;&quot;&gt;Date: &lt;/span&gt;%2&lt;br&gt;
+&lt;span style=&quot; font-weight:600;&quot;&gt;To: &lt;/span&gt;%4&lt;br&gt;
+&lt;span style=&quot; font-weight:600;&quot;&gt;Amount: &lt;/span&gt;%5&lt;br&gt;
+&lt;span style=&quot; font-weight:600;&quot;&gt;Fee: &lt;/span&gt;%6&lt;br&gt;
+&lt;span style=&quot; font-weight:600;&quot;&gt;Payment ID: &lt;/span&gt;%7&lt;br&gt;
+&lt;span style=&quot; font-weight:600;&quot;&gt;Transaction Hash: &lt;/span&gt;%8&lt;br&gt;
+&lt;span style=&quot; font-weight:600;&quot;&gt;Transaction Key: &lt;/span&gt;%9&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Cantarell&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Стан: &lt;/span&gt;%1&lt;br&gt;
+&lt;span style=&quot; font-weight:600;&quot;&gt;Дата: &lt;/span&gt;%2&lt;br&gt;
+&lt;span style=&quot; font-weight:600;&quot;&gt;Кому: &lt;/span&gt;%4&lt;br&gt;
+&lt;span style=&quot; font-weight:600;&quot;&gt;Сума: &lt;/span&gt;%5&lt;br&gt;
+&lt;span style=&quot; font-weight:600;&quot;&gt;Комісія: &lt;/span&gt;%6&lt;br&gt;
+&lt;span style=&quot; font-weight:600;&quot;&gt;Ідентифікатор платежу: &lt;/span&gt;%7&lt;br&gt;
+&lt;span style=&quot; font-weight:600;&quot;&gt;Хеш транзакції: &lt;/span&gt;%8&lt;br&gt;
+&lt;span style=&quot; font-weight:600;&quot;&gt;Ключ транзакції: &lt;/span&gt;%9&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <source>(n/a)</source>
+        <translation>немає даних</translation>
     </message>
 </context>
 <context>
@@ -1979,6 +2211,10 @@ Are you sure?</source>
             <numerusform>Вихідна транзакція, %n підтверджень</numerusform>
         </translation>
     </message>
+    <message>
+        <source>Key</source>
+        <translation>Ключ</translation>
+    </message>
 </context>
 <context>
     <name>WalletGui::WalletAdapter</name>
@@ -2145,6 +2381,10 @@ Are you sure?</source>
     <message>
         <source>There must be an error in mnemonic seed. Make sure you entered it correctly.</source>
         <translation>У мнемомічній фразі є помилка. Перевірте чи ви ввели її правильно.</translation>
+    </message>
+    <message>
+        <source>Sweeping unmixable dust</source>
+        <translation type="unfinished">Триває оптимізація незмішуваних виходів</translation>
     </message>
 </context>
 </TS>

@@ -6,7 +6,6 @@ list(REMOVE_ITEM QRENCODE_SOURCES libqrencode/qrenc.c)
 file(GLOB QRENCODE_HEADERS libqrencode/*.h)
 
 list(APPEND my_definitions "__STATIC=static")
-list(APPEND my_definitions "STATIC_IN_RELEASE=static")
 list(APPEND my_definitions "MAJOR_VERSION=3")
 list(APPEND my_definitions "MINOR_VERSION=4")
 list(APPEND my_definitions "MICRO_VERSION=0")

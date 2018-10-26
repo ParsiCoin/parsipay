@@ -11,15 +11,15 @@
 #include <QNetworkReply>
 #include <QUrl>
 
-const static QString PARSICOIN_UPDATE_URL = "http://explorer.parsicoin.net/update.txt";
+const static QString KRBCOIN_UPDATE_URL = "http://explorer.parsicoin.net/update.txt";
 
 class Updater : public QObject
 {
     Q_OBJECT
 public:
     explicit Updater(QObject *parent = 0);
-	
-	~Updater() {
+
+    ~Updater() {
         delete manager;
     }
 

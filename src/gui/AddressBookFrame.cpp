@@ -1,6 +1,5 @@
 // Copyright (c) 2011-2015 The Cryptonote developers
 // Copyright (c) 2016 The Karbowanec developers
-// Copyright (c) 2018 The ParsiCoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -32,6 +31,7 @@ AddressBookFrame::AddressBookFrame(QWidget* _parent) : QFrame(_parent), m_ui(new
   connect(m_ui->m_addressBookView, SIGNAL(customContextMenuRequested(const QPoint &)), this, SLOT(onCustomContextMenu(const QPoint &)));
 
   contextMenu = new QMenu();
+  contextMenu->addAction(QString(tr("&Pay to")), this, SLOT(payToClicked()));
   contextMenu->addAction(QString(tr("Copy &label")), this, SLOT(copyLabelClicked()));
   contextMenu->addAction(QString(tr("Copy &address")), this, SLOT(copyClicked()));
   contextMenu->addAction(QString(tr("Copy Payment &ID")), this, SLOT(copyPaymentIdClicked()));
@@ -44,6 +44,8 @@ AddressBookFrame::~AddressBookFrame() {
 
 void AddressBookFrame::onCustomContextMenu(const QPoint &point) {
   index = m_ui->m_addressBookView->indexAt(point);
+  if (!index.isValid())
+     return;
   contextMenu->exec(m_ui->m_addressBookView->mapToGlobal(point));
 }
 
@@ -151,6 +153,18 @@ void AddressBookFrame::deleteClicked() {
   AddressBookModel::instance().removeAddress(row);
   m_ui->m_copyPaymentIdButton->setEnabled(false);
   currentAddressChanged(m_ui->m_addressBookView->currentIndex());
+}
+
+void AddressBookFrame::payToClicked() {
+  Q_EMIT payToSignal(m_ui->m_addressBookView->currentIndex());
+}
+
+void AddressBookFrame::addressDoubleClicked(const QModelIndex& _index) {
+  if (!_index.isValid()) {
+    return;
+  }
+
+  Q_EMIT payToSignal(_index);
 }
 
 void AddressBookFrame::currentAddressChanged(const QModelIndex& _index) {

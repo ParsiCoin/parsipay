@@ -1,5 +1,5 @@
 // Copyright (c) 2015-2017, The Bytecoin developers
-// Copyright (c) 2018, The ParsiCoin developers
+//
 // This file is part of Bytecoin.
 //
 // Karbovanets is free software: you can redistribute it and/or modify

@@ -13,6 +13,7 @@
 #include <QSplashScreen>
 #include <QStyleFactory>
 #include <QSettings>
+#include <QTextCodec>
 
 #include "CommandLineParser.h"
 #include "CurrencyAdapter.h"
@@ -23,8 +24,8 @@
 #include "WalletAdapter.h"
 #include "gui/MainWindow.h"
 #include "Update.h"
-#include <QTextCodec>
 #include "PaymentServer.h"
+#include "TranslatorManager.h"
 
 #define DEBUG 1
 
@@ -45,45 +46,10 @@ int main(int argc, char* argv[]) {
   Settings::instance().setCommandLineParser(&cmdLineParser);
   bool cmdLineParseResult = cmdLineParser.process(app.arguments());
   Settings::instance().load();
-  QTranslator translator;
-  QTranslator translatorQt;
 
-  QString lng = Settings::instance().getLanguage();
-
-  if(!lng.isEmpty()) {
-      translator.load(":/languages/" + lng + ".qm");
-      translatorQt.load(":/languages/qt_" + lng + ".qm");
-
-      if(lng == "uk") {
-            QLocale::setDefault(QLocale("uk_UA"));
-        } else if(lng == "ru") {
-            QLocale::setDefault(QLocale("ru_RU"));
-        } else if(lng == "pl") {
-            QLocale::setDefault(QLocale("pl_PL"));
-        } else if(lng == "be") {
-            QLocale::setDefault(QLocale("be_BY"));
-        } else if(lng == "de") {
-            QLocale::setDefault(QLocale("de_DE"));
-        } else if(lng == "es") {
-            QLocale::setDefault(QLocale("es_ES"));
-        } else if(lng == "fr") {
-            QLocale::setDefault(QLocale("fr_FR"));
-        } else {
-            QLocale::setDefault(QLocale::c());
-        }
-
-    } else {
-      translator.load(":/languages/" + QLocale::system().name());
-      translatorQt.load(":/languages/qt_" +  QLocale::system().name());
-      QLocale::setDefault(QLocale::system().name());
-  }
-  app.installTranslator(&translator);
-  app.installTranslator(&translatorQt);
-
-  //QLocale::setDefault(QLocale::c());
-
-  //QLocale locale = QLocale("uk_UA");
-  //QLocale::setDefault(locale);
+  //Translator must be created before the application's widgets.
+  TranslatorManager* tmanager = TranslatorManager::instance();
+  Q_UNUSED(tmanager)
 
   setlocale(LC_ALL, "");
 
@@ -105,13 +71,13 @@ int main(int argc, char* argv[]) {
     QMessageBox::information(nullptr, QObject::tr("Help"), cmdLineParser.getHelpText());
     return app.exec();
   }
-  
+
   //Create registry entries for URL execution
-  QSettings parsicoinKey("HKEY_CLASSES_ROOT\\Parsicoin", QSettings::NativeFormat);
-  parsicoinKey.setValue(".", "Parsicoin Wallet");
-  parsicoinKey.setValue("URL Protocol", "");
-  QSettings parsicoinOpenKey("HKEY_CLASSES_ROOT\\parsicoin\\shell\\open\\command", QSettings::NativeFormat);
-  parsicoinOpenKey.setValue(".", "\"" + QCoreApplication::applicationFilePath().replace("/", "\\") + "\" \"%1\"");
+  QSettings karbowanecKey("HKEY_CLASSES_ROOT\\parsicoin", QSettings::NativeFormat);
+  karbowanecKey.setValue(".", "PARS Wallet");
+  karbowanecKey.setValue("URL Protocol", "");
+  QSettings karbowanecOpenKey("HKEY_CLASSES_ROOT\\parsicoin\\shell\\open\\command", QSettings::NativeFormat);
+  karbowanecOpenKey.setValue(".", "\"" + QCoreApplication::applicationFilePath().replace("/", "\\") + "\" \"%1\"");
 #endif
 
 #if defined(Q_OS_LINUX)
@@ -119,7 +85,7 @@ int main(int argc, char* argv[]) {
   QProcess exec;
 
   //as root
-  args << "-c" << "printf '[Desktop Entry]\\nName = PARS URL Handler\\nGenericName = parsicoin\\nComment = Handle URL Sheme parsicoin://\\nExec = " + QCoreApplication::applicationFilePath() + " %%u\\nTerminal = false\\nType = Application\\nMimeType = x-scheme-handler/parsicoin;\\nIcon = Parsicoin-Wallet' | tee /usr/share/applications/Parsicoin-handler.desktop";
+  args << "-c" << "printf '[Desktop Entry]\\nName = PARS URL Handler\\nGenericName = PARS\\nComment = Handle URL Sheme parsicoin://\\nExec = " + QCoreApplication::applicationFilePath() + " %%u\\nTerminal = false\\nType = Application\\nMimeType = x-scheme-handler/parsicoin;\\nIcon = PARS-Wallet' | tee /usr/share/applications/parsicoin-handler.desktop";
   exec.start("/bin/sh", args);
   exec.waitForFinished();
 
@@ -151,7 +117,7 @@ int main(int argc, char* argv[]) {
     splash->show();
   }
 
-  splash->showMessage(QObject::tr("Loading blockchain..."), Qt::AlignLeft | Qt::AlignBottom, Qt::white);
+  splash->showMessage(QObject::tr("Loading BlockChain ..."), Qt::AlignLeft | Qt::AlignBottom, Qt::white);
 
   app.processEvents();
   qRegisterMetaType<CryptoNote::TransactionId>("CryptoNote::TransactionId");
@@ -160,7 +126,7 @@ int main(int argc, char* argv[]) {
     return 0;
   }
   splash->finish(&MainWindow::instance());
-	Updater *d = new Updater();
+  Updater *d = new Updater();
   d->checkForUpdate();
   MainWindow::instance().show();
   WalletAdapter::instance().open("");

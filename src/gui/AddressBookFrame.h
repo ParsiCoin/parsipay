@@ -1,5 +1,4 @@
 // Copyright (c) 2011-2015 The Cryptonote developers
-// Copyright (c) 2018 The ParsiCoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -35,6 +34,7 @@ public Q_SLOTS:
   void copyPaymentIdClicked();
   void copyLabelClicked();
   void deleteClicked();
+  void payToClicked();
 
 private:
   QScopedPointer<Ui::AddressBookFrame> m_ui;
@@ -43,6 +43,11 @@ private:
   QMenu* contextMenu;
 
   Q_SLOT void currentAddressChanged(const QModelIndex& _index);
+  Q_SLOT void addressDoubleClicked(const QModelIndex& _index);
+
+Q_SIGNALS:
+  void payToSignal(const QModelIndex& _index);
+
 };
 
 }
