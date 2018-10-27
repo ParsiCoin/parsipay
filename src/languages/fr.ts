@@ -502,7 +502,7 @@ Veuillez patientez...</translation>
     </message>
     <message>
         <source>Exit</source>
-        <translation>Sortie</translation>
+        <translation>Quitter</translation>
     </message>
     <message>
         <source>Ctrl+Q</source>
