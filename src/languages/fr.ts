@@ -32,7 +32,7 @@
     </message>
     <message>
         <source>Show private key</source>
-        <translation>Afficher la clé privée</translation>
+        <translation>Afficher les clés privées</translation>
     </message>
     <message>
         <source>Your account:</source>
@@ -270,7 +270,7 @@
     </message>
     <message>
         <source>Built-in embedded node will be used.</source>
-        <translation>Un built-in nœud intégré sera utilisé.</translation>
+        <translation>Un noeud intégré sera utilisé.</translation>
     </message>
     <message>
         <source>Local daemon</source>
@@ -286,7 +286,7 @@
     </message>
     <message>
         <source>Remote daemon</source>
-        <translation>Daemon disant</translation>
+        <translation>Daemon distant</translation>
     </message>
     <message>
         <source>Add node</source>
@@ -305,13 +305,13 @@
     <name>ExitWidget</name>
     <message>
         <source>Saving data</source>
-        <translation>La sauvegarde des données</translation>
+        <translation>Sauvegarde des données</translation>
     </message>
     <message>
         <source>%1 wallet is saving data.
 Please wait...</source>
-        <translation>%1 portefeuille sauvegarde les données.
-S&apos;il vous plaît, patientez...</translation>
+        <translation>Le portefeuille %1 sauvegarde les données.
+Veuillez patientez...</translation>
     </message>
 </context>
 <context>
@@ -365,7 +365,7 @@ S&apos;il vous plaît, patientez...</translation>
     </message>
     <message>
         <source>Where to save new wallet file:</source>
-        <translation>Où sauvegarder le nouveau fichier de portefeuille:</translation>
+        <translation>Où sauvegarder le nouveau fichier de portefeuille ?:</translation>
     </message>
     <message>
         <source>Select folder</source>
@@ -404,7 +404,7 @@ S&apos;il vous plaît, patientez...</translation>
     </message>
     <message>
         <source>Where to save new wallet file:</source>
-        <translation>Où sauvegarder le nouveau fichier de portefeuille:</translation>
+        <translation>Où sauvegarder le nouveau fichier de portefeuille ?:</translation>
     </message>
     <message>
         <source>Select folder</source>
@@ -435,15 +435,15 @@ S&apos;il vous plaît, patientez...</translation>
     </message>
     <message>
         <source>Height</source>
-        <translation>La taille</translation>
+        <translation>Taille</translation>
     </message>
     <message>
         <source>Difficulty</source>
-        <translation>La Difficulté</translation>
+        <translation>Difficulté</translation>
     </message>
     <message>
         <source>Transactions</source>
-        <translation>Les transactions</translation>
+        <translation>Transactions</translation>
     </message>
     <message>
         <source>Unconfirmed transactions</source>
@@ -466,7 +466,7 @@ S&apos;il vous plaît, patientez...</translation>
     <name>MainWindow</name>
     <message>
         <source>MainWindow</source>
-        <translation>FenêtrePrincipale</translation>
+        <translation>Fenêtre principale</translation>
     </message>
     <message>
         <source>File</source>
@@ -502,7 +502,7 @@ S&apos;il vous plaît, patientez...</translation>
     </message>
     <message>
         <source>Exit</source>
-        <translation>Sortie</translation>
+        <translation>Quitter</translation>
     </message>
     <message>
         <source>Ctrl+Q</source>
@@ -546,11 +546,11 @@ S&apos;il vous plaît, patientez...</translation>
     </message>
     <message>
         <source>Minimize to tray</source>
-        <translation>Minimizer au barre des tâches</translation>
+        <translation>Minimizer dans la barre des tâches</translation>
     </message>
     <message>
         <source>Close to tray</source>
-        <translation>Fermer au barre des tâches</translation>
+        <translation>Fermer dans la barre des tâches</translation>
     </message>
     <message>
         <source>Import private key</source>
@@ -570,7 +570,7 @@ S&apos;il vous plaît, patientez...</translation>
     </message>
     <message>
         <source>Language</source>
-        <translation>La langue</translation>
+        <translation>Langue</translation>
     </message>
     <message>
         <source>Change language</source>
@@ -634,11 +634,11 @@ S&apos;il vous plaît, patientez...</translation>
     </message>
     <message>
         <source>Show mnemonic seed</source>
-        <translation>Afficher les graines mnémotechniques</translation>
+        <translation>Afficher la graine mnémonique</translation>
     </message>
     <message>
         <source>Restore from mnemonic seed</source>
-        <translation>Restaurer à partir de graines mnémotechniques</translation>
+        <translation>Restaurer à partir de la graine mnémonique</translation>
     </message>
     <message>
         <source>Create nondeterministic wallet</source>
@@ -646,7 +646,7 @@ S&apos;il vous plaît, patientez...</translation>
     </message>
     <message>
         <source>Start pool mining automatically</source>
-        <translation>Démarrer l&apos;exploration de la piscine automatiquement</translation>
+        <translation>Démarrer lle pool mining automatiquement</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -654,7 +654,7 @@ S&apos;il vous plaît, patientez...</translation>
     </message>
     <message>
         <source>Sweep unmixable</source>
-        <translation>Balayer Non Mélangeables</translation>
+        <translation>Sweep unmixable</translation>
     </message>
     <message>
         <source>Sign message</source>
@@ -673,15 +673,15 @@ S&apos;il vous plaît, patientez...</translation>
     </message>
     <message>
         <source>Mining status</source>
-        <translation>Statut minier</translation>
+        <translation>Statut du mining</translation>
     </message>
     <message>
         <source>CPU cores</source>
-        <translation>Cœurs de processeurs</translation>
+        <translation>Coeurs de processeurs</translation>
     </message>
     <message>
         <source>Select pool</source>
-        <translation>Sélectionnez le groupement</translation>
+        <translation>Sélectionnez le pool</translation>
     </message>
     <message>
         <source>Stopped</source>
@@ -689,15 +689,15 @@ S&apos;il vous plaît, patientez...</translation>
     </message>
     <message>
         <source>Add pool</source>
-        <translation>Ajouter le groupment</translation>
+        <translation>Ajouter le pool</translation>
     </message>
     <message>
         <source>Start mining</source>
-        <translation>Démarrer l&apos;exploitation</translation>
+        <translation>Démarrer le mining</translation>
     </message>
     <message>
         <source>Pause mining</source>
-        <translation>Pauser l&apos;exploitation</translation>
+        <translation>Mettre le mining en pause</translation>
     </message>
     <message>
         <source>Settings</source>
@@ -705,15 +705,15 @@ S&apos;il vous plaît, patientez...</translation>
     </message>
     <message>
         <source>Pool mining</source>
-        <translation>L&apos;exploitation de groupment</translation>
+        <translation>Pool mining</translation>
     </message>
     <message>
         <source>Stop mining</source>
-        <translation>Arrêter l&apos;exploitation</translation>
+        <translation>Arrêter le mining</translation>
     </message>
     <message>
         <source>Solo mining</source>
-        <translation>Exploitation solo</translation>
+        <translation>Solo mining</translation>
     </message>
     <message>
         <source>Status</source>
@@ -721,11 +721,11 @@ S&apos;il vous plaît, patientez...</translation>
     </message>
     <message>
         <source>Remove pool</source>
-        <translation>Supprimer le groupment</translation>
+        <translation>Supprimer le pool</translation>
     </message>
     <message>
         <source>Mining status:</source>
-        <translation>Statut de l&apos;exploitation:</translation>
+        <translation>Statut du mining:</translation>
     </message>
 </context>
 <context>
@@ -751,7 +751,7 @@ S&apos;il vous plaît, patientez...</translation>
     </message>
     <message>
         <source>Label:</source>
-        <translation>Le label:</translation>
+        <translation>Label:</translation>
     </message>
     <message>
         <source>Address:</source>
@@ -824,7 +824,7 @@ S&apos;il vous plaît, patientez...</translation>
     <name>NewPoolDialog</name>
     <message>
         <source>New pool</source>
-        <translation>Nouveau groupment</translation>
+        <translation>Nouveau pool</translation>
     </message>
     <message>
         <source>Host:</source>
@@ -851,7 +851,7 @@ S&apos;il vous plaît, patientez...</translation>
     </message>
     <message>
         <source>Welcome to ParsiCoin Wallet!</source>
-        <translation>Bienvenue sur ParsiCoin Wallet!</translation>
+        <translation>Bienvenue dans le portefeuille ParsiCoin !</translation>
     </message>
     <message>
         <source>Create wallet</source>
@@ -917,7 +917,7 @@ S&apos;il vous plaît, patientez...</translation>
     </message>
     <message>
         <source>Unmixable dust:</source>
-        <translation>Non Mélangeables:</translation>
+        <translation>Unmixable dust:</translation>
     </message>
     <message>
         <source>0.00</source>
@@ -1001,11 +1001,11 @@ S&apos;il vous plaît, patientez...</translation>
     </message>
     <message>
         <source>Loading blockchain...</source>
-        <translation>Chargement de blockchain ...</translation>
+        <translation>Chargement de la blockchain ...</translation>
     </message>
     <message>
         <source>%1 wallet already running or cannot create lock file %2. Check your permissions.</source>
-        <translation>%1 portefeuille en cours d&apos;exécution ou ne peut pas créer le fichier de verrouillage %2. Vérifiez vos autorisations.</translation>
+        <translation>Le portefeuille %1 en cours d&apos;exécution ou ne peut pas créer le fichier de verrouillage %2. Vérifiez vos autorisations.</translation>
     </message>
     <message>
         <source>New version available</source>
@@ -1042,7 +1042,7 @@ Voulez-vous aller à la page de téléchargement?</translation>
     </message>
     <message>
         <source>Label:</source>
-        <translation>Le label:</translation>
+        <translation>Label:</translation>
     </message>
     <message>
         <source>Enter a label for this payer</source>
@@ -1081,7 +1081,7 @@ Voulez-vous aller à la page de téléchargement?</translation>
     <name>RestoreFromMnemonicSeedDialog</name>
     <message>
         <source>Restore from mnemonic phrase</source>
-        <translation>Restaurer à partir de la phrase mnémotechnique</translation>
+        <translation>Restaurer à partir de la phrase mnémonique</translation>
     </message>
     <message>
         <source>Mnemonic:</source>
@@ -1105,7 +1105,7 @@ Voulez-vous aller à la page de téléchargement?</translation>
     </message>
     <message>
         <source>Where to save new wallet file:</source>
-        <translation>Où sauvegarder le nouveau fichier de portefeuille:</translation>
+        <translation>Où sauvegarder le nouveau fichier de portefeuille ?:</translation>
     </message>
     <message>
         <source>Select folder</source>
@@ -1148,11 +1148,11 @@ Voulez-vous aller à la page de téléchargement?</translation>
     </message>
     <message>
         <source>Payment identifier issued by payee (exchange, shop or other entity)</source>
-        <translation>Identifiant de paiement émis par le bénéficiaire (échange, magasin ou autre entité)</translation>
+        <translation>Identifiant de paiement émis par le bénéficiaire (Exchange, magasin ou autre entité)</translation>
     </message>
     <message>
         <source>Donate 0.1% to development fund:</source>
-        <translation>Faire un don de 0,1% au fonds de développement:</translation>
+        <translation>Faire un don de 0,1 % au fonds de développement:</translation>
     </message>
     <message>
         <source>Generate Payment ID</source>
@@ -1376,7 +1376,7 @@ Voulez-vous aller à la page de téléchargement?</translation>
     </message>
     <message>
         <source>This is mnemonic seed of your wallet. Write it down carefully. It allows to restore your wallet.</source>
-        <translation>C&apos;est la graine mnémotechnique de votre portefeuille. Ecrivez-le soigneusement. Cela permet de restaurer votre portefeuille.</translation>
+        <translation>C&apos;est la graine mnémonique de votre portefeuille. Notez-la soigneusement. Cela vous permettra de restaurer votre portefeuille.</translation>
     </message>
     <message>
         <source>Mnemonic:</source>
@@ -1449,15 +1449,15 @@ Voulez-vous aller à la page de téléchargement?</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>&amp;Edit</translation>
+        <translation>&amp;Editer</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Delete</translation>
+        <translation>&amp;Supprimer</translation>
     </message>
     <message>
         <source>Contact with such label already exists.</source>
-        <translation>Le contact avec cet label existe déjà.</translation>
+        <translation>Un contact avec ce label existe déjà.</translation>
     </message>
     <message>
         <source>&amp;Pay to</source>
@@ -1514,7 +1514,7 @@ Voulez-vous aller à la page de téléchargement?</translation>
     </message>
     <message>
         <source>Manually add peer to local peerlist</source>
-        <translation>Ajouter manuellement un pair à une lpeerlist locale</translation>
+        <translation>Ajouter manuellement un pair à une peerlist locale</translation>
     </message>
     <message>
         <source>peer</source>
@@ -1526,7 +1526,7 @@ Voulez-vous aller à la page de téléchargement?</translation>
     </message>
     <message>
         <source>node</source>
-        <translation>nœud</translation>
+        <translation>noeud</translation>
     </message>
     <message>
         <source>Specify list of peers to connect to only. If this option is given the options add-priority-node and seed-node are ignored</source>
@@ -1534,7 +1534,7 @@ Voulez-vous aller à la page de téléchargement?</translation>
     </message>
     <message>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Connecter à un nœud pour récupérer des adresses des peers et déconnecter</translation>
+        <translation>Connecter à un noeud pour récupérer des adresses des peers et déconnecter</translation>
     </message>
     <message>
         <source>Do not announce yourself as peerlist candidate</source>
@@ -1546,7 +1546,7 @@ Voulez-vous aller à la page de téléchargement?</translation>
     </message>
     <message>
         <source>directory</source>
-        <translation>directoire</translation>
+        <translation>répertoire</translation>
     </message>
     <message>
         <source>Run application in minimized mode</source>
@@ -1554,7 +1554,7 @@ Voulez-vous aller à la page de téléchargement?</translation>
     </message>
     <message>
         <source>parsicoin wallet</source>
-        <translation>parsicoin portefeuille</translation>
+        <translation>portefeuille parsicoin</translation>
     </message>
     <message>
         <source>External port for p2p network protocol (if port forwarding used with NAT)</source>
@@ -1580,7 +1580,7 @@ Voulez-vous aller à la page de téléchargement?</translation>
     <name>WalletGui::ExportTrackingKeyDialog</name>
     <message>
         <source>Save tracking key to...</source>
-        <translation>Enregistrer la clé de suivi à ...</translation>
+        <translation>Enregistrer la clé de suivi dans ...</translation>
     </message>
     <message>
         <source>Tracking key (*.trackingkey)</source>
@@ -1636,7 +1636,7 @@ Voulez-vous aller à la page de téléchargement?</translation>
     <name>WalletGui::MainWindow</name>
     <message>
         <source>About %1 Wallet</source>
-        <translation>À propos de %1 Portefeuille</translation>
+        <translation>À propos du Portefeuille %1 </translation>
     </message>
     <message>
         <source>New wallet file</source>
@@ -1665,7 +1665,7 @@ Voulez-vous aller à la page de téléchargement?</translation>
     <message>
         <source>Your wallet will be reset and restored from blockchain.
 Are you sure?</source>
-        <translation>Votre portefeuille sera réinitialisé et restauré à partir de blockchain.
+        <translation>Votre portefeuille sera réinitialisé et restauré à partir de la blockchain.
 Êtes-vous sûr?</translation>
     </message>
     <message>
@@ -1745,11 +1745,11 @@ Are you sure?</source>
     </message>
     <message>
         <source>ParsiCoin Wallet %1</source>
-        <translation>ParsiCoin Portefeuille %1</translation>
+        <translation>Portefeuille ParsiCoin %1</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;Show / Hide</translation>
+        <translation>&amp;Afficher/ Cacher</translation>
     </message>
     <message>
         <source>Show or hide the main window</source>
@@ -1832,7 +1832,7 @@ Are you sure?</source>
     <name>WalletGui::MiningFrame</name>
     <message>
         <source>Mining. Hashrate: %1 H/s</source>
-        <translation>L&apos;extraction. Hashrate: %1 H/s</translation>
+        <translation>L&apos;mining. Hashrate: %1 H/s</translation>
     </message>
     <message>
         <source>Error: %1</source>
@@ -1848,15 +1848,15 @@ Are you sure?</source>
     </message>
     <message>
         <source>Mining solo. Hashrate: %1 H/s</source>
-        <translation>L&apos;extraction solo. Hashrate: %1 H/s</translation>
+        <translation>Mining solo. Hashrate: %1 H/s</translation>
     </message>
     <message>
         <source>Starting solo minining...</source>
-        <translation>Démarrage de l&apos;extraction en solo ...</translation>
+        <translation>Démarrage du mining en solo ...</translation>
     </message>
     <message>
         <source>Mining in pool. Hashrate: %1 H/s</source>
-        <translation>L&apos;extraction en groupment. Hashrate: %1 H/s</translation>
+        <translation>Pool mining. Hashrate: %1 H/s</translation>
     </message>
 </context>
 <context>
@@ -1877,18 +1877,18 @@ Are you sure?</source>
     <name>WalletGui::PoolModel</name>
     <message>
         <source>Pool URL</source>
-        <translation>Engroupment du URL</translation>
+        <translation>URL du pool</translation>
     </message>
 </context>
 <context>
     <name>WalletGui::QRLabel</name>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>&amp;Save Image...</translation>
+        <translation>&amp;Sauvegarder l&apos;image...</translation>
     </message>
     <message>
         <source>&amp;Copy Image</source>
-        <translation>&amp;Copy Image</translation>
+        <translation>&amp;Copier l&apos;image</translation>
     </message>
     <message>
         <source>Save QR Code</source>
@@ -1965,7 +1965,7 @@ Are you sure?</source>
     </message>
     <message>
         <source>You have unmixable dust on balance. Use menu &apos;Wallet -&gt; Sweep unmixable&apos; first.</source>
-        <translation>Vous avez un équilibre immiscible. Utilisez d&apos;abord le menu &apos;Portefeuille -&gt; Balayer Non Mélangeables&apos;.</translation>
+        <translation>Vous avez une dust unmixable dans votre balance. Utilisez d&apos;abord le menu &apos;Portefeuille -&gt; Balayer Non Mélangeables&apos;.</translation>
     </message>
 </context>
 <context>
@@ -1997,11 +1997,11 @@ quand le portefeuille aura terminé la synchronisation</translation>
     </message>
     <message>
         <source>Signature is invalid!</source>
-        <translation>La signature est invalide!</translation>
+        <translation>La signature est non valide !</translation>
     </message>
     <message>
         <source>Address is invalid!</source>
-        <translation>L&apos;adresse est invalide!</translation>
+        <translation>L&apos;adresse est non valide !</translation>
     </message>
 </context>
 <context>
@@ -2246,7 +2246,7 @@ quand le portefeuille aura terminé la synchronisation</translation>
     </message>
     <message>
         <source>Saving data</source>
-        <translation>La sauvegarde des données</translation>
+        <translation>Sauvegarde des données</translation>
     </message>
     <message>
         <source>Sending transaction</source>
@@ -2306,7 +2306,7 @@ quand le portefeuille aura terminé la synchronisation</translation>
     </message>
     <message>
         <source>The destination is empty</source>
-        <translation>The destination is empty</translation>
+        <translation>La destination est vide</translation>
     </message>
     <message>
         <source>Impossible to cancel transaction</source>
@@ -2314,7 +2314,7 @@ quand le portefeuille aura terminé la synchronisation</translation>
     </message>
     <message>
         <source>The wallet is in wrong state (maybe loading or saving), try again later</source>
-        <translation>Le portefeuille est dans un mauvais état (peut-être charger ou sauvegarder), réessayez plus tard</translation>
+        <translation>Le portefeuille est occupé (peut-être entrain de charger ou de sauvegarder), veuillez réessayer plus tard</translation>
     </message>
     <message>
         <source>The operation you&apos;ve requested has been cancelled</source>
@@ -2322,7 +2322,7 @@ quand le portefeuille aura terminé la synchronisation</translation>
     </message>
     <message>
         <source>Transaction transfer impossible</source>
-        <translation>Transfert de transaction est impossible</translation>
+        <translation>Transfert de transaction impossible</translation>
     </message>
     <message>
         <source>Wrong version</source>
@@ -2330,7 +2330,7 @@ quand le portefeuille aura terminé la synchronisation</translation>
     </message>
     <message>
         <source>Transaction fee is too small</source>
-        <translation>Les frais de transaction sont trop petits</translation>
+        <translation>Les frais de transaction sont trop faibles</translation>
     </message>
     <message>
         <source>Cannot generate new key</source>
@@ -2358,7 +2358,7 @@ quand le portefeuille aura terminé la synchronisation</translation>
     </message>
     <message>
         <source>Requested wallet not found</source>
-        <translation>Le portefeuille requis introuvable</translation>
+        <translation>Portefeuille requis introuvable</translation>
     </message>
     <message>
         <source>Change address required</source>
@@ -2402,7 +2402,7 @@ quand le portefeuille aura terminé la synchronisation</translation>
     </message>
     <message>
         <source>Sweeping unmixable dust</source>
-        <translation>Balayer non mélangeable</translation>
+        <translation>Sweeping unmixable dust</translation>
     </message>
 </context>
 </TS>
