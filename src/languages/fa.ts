@@ -1038,7 +1038,7 @@ Do you want to go to download page?</source>
     </message>
     <message>
         <source>PaymentID:</source>
-        <translation>شناسه پرداخ :</translation>
+        <translation>شناسه پرداخت :</translation>
     </message>
     <message>
         <source>Generate Payment ID</source>
