@@ -86,6 +86,9 @@
          <height>0</height>
         </size>
        </property>
+       <property name="minimum">
+        <number>2</number>
+       </property>
        <property name="maximum">
         <number>10</number>
        </property>
@@ -93,7 +96,7 @@
         <number>1</number>
        </property>
        <property name="value">
-        <number>1</number>
+        <number>5</number>
        </property>
        <property name="sliderPosition">
         <number>5</number>
@@ -208,16 +211,16 @@
         <number>8</number>
        </property>
        <property name="minimum">
-        <double>0.0001000</double>
+        <double>0.000100000000000</double>
        </property>
        <property name="maximum">
-        <double>999999999999999.0000000</double>
+        <double>999999999999999.000000000000000</double>
        </property>
        <property name="singleStep">
-        <double>0.0001000</double>
+        <double>0.000100000000000</double>
        </property>
        <property name="value">
-        <double>0.0001000</double>
+        <double>0.000100000000000</double>
        </property>
       </widget>
      </item>
@@ -270,10 +273,10 @@
         <number>8</number>
        </property>
        <property name="maximum">
-        <double>999999999999999.0000000</double>
+        <double>999999999999999.000000000000000</double>
        </property>
        <property name="singleStep">
-        <double>0.1000000</double>
+        <double>0.100000000000000</double>
        </property>
       </widget>
      </item>
