@@ -56,7 +56,7 @@
     </message>
     <message>
         <source> PARS</source>
-        <translation> крб.</translation>
+        <translation> PARS.</translation>
     </message>
     <message>
         <source>Frame</source>
@@ -207,11 +207,11 @@
     <name>ConfirmSendDialog</name>
     <message>
         <source>Confirm sending %1 PARS</source>
-        <translation>Подтвердите отправку %1 крб.</translation>
+        <translation>Подтвердите отправку %1 PARS.</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Are you sure you want to send &lt;strong&gt;%1 PARS&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Желаете выслать &lt;strong&gt;%1 крб.&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Желаете выслать &lt;strong&gt;%1 PARS.&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Yes</source>
@@ -827,7 +827,7 @@ Please wait...</source>
     </message>
     <message>
         <source>Welcome to ParsiCoin Wallet!</source>
-        <translation>Добро пожаловать в кошелек Карбованца!</translation>
+        <translation>Добро пожаловать в кошелек ParsiCoin!</translation>
     </message>
     <message>
         <source>Create wallet</source>
@@ -981,7 +981,7 @@ Please wait...</source>
     </message>
     <message>
         <source>%1 wallet already running or cannot create lock file %2. Check your permissions.</source>
-        <translation>Кошелек Карбованца уже запущен либо не может создать файл блокировки %2. Проверьте права на запись.</translation>
+        <translation>Кошелек ParsiCoin уже запущен либо не может создать файл блокировки %2. Проверьте права на запись.</translation>
     </message>
     <message>
         <source>New version available</source>
@@ -1367,7 +1367,7 @@ Do you want to go to download page?</source>
     <name>WalletGui::AboutDialog</name>
     <message>
         <source>About %1 Wallet</source>
-        <translation>О кошельке Карбованца</translation>
+        <translation>О кошельке ParsiCoin</translation>
     </message>
 </context>
 <context>
@@ -1522,7 +1522,7 @@ Do you want to go to download page?</source>
     </message>
     <message>
         <source>parsicoin wallet</source>
-        <translation>Кошелек карбованца</translation>
+        <translation>Кошелек ParsiCoin</translation>
     </message>
     <message>
         <source>External port for p2p network protocol (if port forwarding used with NAT)</source>
@@ -1604,7 +1604,7 @@ Do you want to go to download page?</source>
     <name>WalletGui::MainWindow</name>
     <message>
         <source>About %1 Wallet</source>
-        <translation>О кошельке Карбованца</translation>
+        <translation>О кошельке ParsiCoin</translation>
     </message>
     <message>
         <source>New wallet file</source>

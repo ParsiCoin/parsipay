@@ -56,7 +56,7 @@
     </message>
     <message>
         <source> PARS</source>
-        <translation> крб.</translation>
+        <translation> PARS.</translation>
     </message>
     <message>
         <source>Frame</source>
@@ -207,11 +207,11 @@
     <name>ConfirmSendDialog</name>
     <message>
         <source>Confirm sending %1 PARS</source>
-        <translation>Пацверджанне адпраўкі %1 крб.</translation>
+        <translation>Пацверджанне адпраўкі %1 PARS.</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Are you sure you want to send &lt;strong&gt;%1 PARS&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Жадаеце выслаць &lt;strong&gt;%1 крб.&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Жадаеце выслаць &lt;strong&gt;%1 PARS.&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Yes</source>
@@ -274,15 +274,15 @@
     </message>
     <message>
         <source>Wallet will connect to remote node running in local or global network. Please select node or specify IP address or domain name and port. In this mode wallet sends 0.25% fee from each transaction to the node, but no more than 10 PARS.</source>
-        <translation>Гаманец будзе падлучацца да вузла ў лакальнай або глабальнай сеткі. Выберыце вузел або пакажыце IP адрас або дамен і порт каб дадаць новы. У гэтым рэжыме гаманец плаціць камісію вузлу ў памеры 0,25% ад сумы транзакцыі, але не больш за 10 крб.</translation>
+        <translation>Гаманец будзе падлучацца да вузла ў лакальнай або глабальнай сеткі. Выберыце вузел або пакажыце IP адрас або дамен і порт каб дадаць новы. У гэтым рэжыме гаманец плаціць камісію вузлу ў памеры 0,25% ад сумы транзакцыі, але не больш за 10 PARS.</translation>
     </message>
     <message>
         <source>Remove node</source>
         <translation>Выдаліць вузел</translation>
     </message>
     <message>
-        <source>Wallet will connect to remote node running in local or global network. Please select node or specify IP address or domain name and port. In this mode wallet sends 0.25% fee from each transaction to the node, but no more than 1 PARS.</source>
-        <translation>Гаманец будзе падлучацца да вузла ў лакальнай або глабальнай сеткі. Выберыце вузел або пакажыце IP адрас або дамен і порт каб дадаць новы. У гэтым рэжыме гаманец плаціць камісію вузлу ў памеры 0,25% ад сумы транзакцыі, але не больш за 1 крб.</translation>
+        <source>Wallet will connect to remote node running in local or global network. Please select node or specify IP address or domain name and port. In this mode wallet sends 0.25% fee from each transaction to the node, but no more than 10 PARS.</source>
+        <translation>Гаманец будзе падлучацца да вузла ў лакальнай або глабальнай сеткі. Выберыце вузел або пакажыце IP адрас або дамен і порт каб дадаць новы. У гэтым рэжыме гаманец плаціць камісію вузлу ў памеры 0,25% ад сумы транзакцыі, але не больш за 10 PARS.</translation>
     </message>
 </context>
 <context>
@@ -831,7 +831,7 @@ Please wait...</source>
     </message>
     <message>
         <source>Welcome to ParsiCoin Wallet!</source>
-        <translation>Сардэчна запрашаем у гаманец Карбованця!</translation>
+        <translation>Сардэчна запрашаем у гаманец ParsiCoin!</translation>
     </message>
     <message>
         <source>Create wallet</source>
@@ -1548,7 +1548,7 @@ Do you want to go to download page?</source>
     <name>WalletGui::ConfirmSendDialog</name>
     <message>
         <source>Confirm sending %1 PARS</source>
-        <translation>Пацвердзіце адпраўку %1 крб.</translation>
+        <translation>Пацвердзіце адпраўку %1 PARS.</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Payment ID: %1&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>

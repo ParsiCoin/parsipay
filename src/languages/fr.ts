@@ -297,8 +297,8 @@
         <translation>Supprimer le noeud</translation>
     </message>
     <message>
-        <source>Wallet will connect to remote node running in local or global network. Please select node or specify IP address or domain name and port. In this mode wallet sends 0.25% fee from each transaction to the node, but no more than 1 PARS.</source>
-        <translation>Le portefeuille se connecte au noeud distant en cours d&apos;exécution sur un réseau local ou global. Veuillez sélectionner un noeud ou spécifier une adresse IP ou un nom de domaine et un port. Dans ce mode, le portefeuille envoie des frais de 0,25% de chaque transaction au nœud, mais pas plus de 1 PARS.</translation>
+        <source>Wallet will connect to remote node running in local or global network. Please select node or specify IP address or domain name and port. In this mode wallet sends 0.25% fee from each transaction to the node, but no more than 10 PARS.</source>
+        <translation>Le portefeuille se connecte au noeud distant en cours d&apos;exécution sur un réseau local ou global. Veuillez sélectionner un noeud ou spécifier une adresse IP ou un nom de domaine et un port. Dans ce mode, le portefeuille envoie des frais de 0,25% de chaque transaction au nœud, mais pas plus de 10 PARS.</translation>
     </message>
 </context>
 <context>

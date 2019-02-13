@@ -827,7 +827,7 @@ Proszę czekać...</translation>
     </message>
     <message>
         <source>Welcome to parsicoin Wallet!</source>
-        <translation>Witaj w portfelu Karbowańca!</translation>
+        <translation>Witaj w portfelu ParsiCoin!</translation>
     </message>
     <message>
         <source>Create wallet</source>
@@ -1382,7 +1382,7 @@ Czy chesz otworzyć stronę pobierania w przeglądarce?</translation>
     <name>WalletGui::AboutDialog</name>
     <message>
         <source>About %1 Wallet</source>
-        <translation>O portfelu Karbowańca</translation>
+        <translation>O portfelu ParsiCoin</translation>
     </message>
 </context>
 <context>
@@ -1533,7 +1533,7 @@ Czy chesz otworzyć stronę pobierania w przeglądarce?</translation>
     </message>
     <message>
         <source>parsicoin wallet</source>
-        <translation>Portfel karbowańca</translation>
+        <translation>Portfel ParsiCoin</translation>
     </message>
     <message>
         <source>External port for p2p network protocol (if port forwarding used with NAT)</source>
@@ -1615,7 +1615,7 @@ Czy chesz otworzyć stronę pobierania w przeglądarce?</translation>
     <name>WalletGui::MainWindow</name>
     <message>
         <source>About %1 Wallet</source>
-        <translation>O portfelu Karbowańca</translation>
+        <translation>O portfelu ParsiCoin</translation>
     </message>
     <message>
         <source>New wallet file</source>

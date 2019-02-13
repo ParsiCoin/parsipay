@@ -56,7 +56,7 @@
     </message>
     <message>
         <source> PARS</source>
-        <translation> крб.</translation>
+        <translation> PARS.</translation>
     </message>
     <message>
         <source>Frame</source>
@@ -207,7 +207,7 @@
     <name>ConfirmSendDialog</name>
     <message>
         <source>Confirm sending %1 PARS</source>
-        <translation>Підтвердіть надсилання %1 крб.</translation>
+        <translation>Підтвердіть надсилання %1 PARS.</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Are you sure you want to send &lt;strong&gt;%1 PARS&lt;/strong&gt;?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
@@ -277,8 +277,8 @@
         <translation>Видалити вузол</translation>
     </message>
     <message>
-        <source>Wallet will connect to remote node running in local or global network. Please select node or specify IP address or domain name and port. In this mode wallet sends 0.25% fee from each transaction to the node, but no more than 1 PARS.</source>
-        <translation>Гаманець підключатиметься до віддаленого вузла, що запущений у локальній або глобальній мережі. Виберіть вузол, або вкажіть IP адресу чи домен та порт нового вузла. У цьому режимі він сплачує комісію для вузла в розмірі 0,25% від суми переказу, але не більше 1 PARS.</translation>
+        <source>Wallet will connect to remote node running in local or global network. Please select node or specify IP address or domain name and port. In this mode wallet sends 0.25% fee from each transaction to the node, but no more than 10 PARS.</source>
+        <translation>Гаманець підключатиметься до віддаленого вузла, що запущений у локальній або глобальній мережі. Виберіть вузол, або вкажіть IP адресу чи домен та порт нового вузла. У цьому режимі він сплачує комісію для вузла в розмірі 0,25% від суми переказу, але не більше 10 PARS.</translation>
     </message>
 </context>
 <context>
@@ -827,7 +827,7 @@ Please wait...</source>
     </message>
     <message>
         <source>Welcome to ParsiCoin Wallet!</source>
-        <translation>Вітаємо в гаманці Карбованця!</translation>
+        <translation>Вітаємо в гаманці ParsiCoin!</translation>
     </message>
     <message>
         <source>Create wallet</source>
@@ -981,7 +981,7 @@ Please wait...</source>
     </message>
     <message>
         <source>%1 wallet already running or cannot create lock file %2. Check your permissions.</source>
-        <translation>Гаманець Карбованця вже працює, або не може створити файл блокування %2. Перевірте права на запис.</translation>
+        <translation>Гаманець ParsiCoin вже працює, або не може створити файл блокування %2. Перевірте права на запис.</translation>
     </message>
     <message>
         <source>New version available</source>
@@ -1371,7 +1371,7 @@ Do you want to go to download page?</source>
     <name>WalletGui::AboutDialog</name>
     <message>
         <source>About %1 Wallet</source>
-        <translation>Про гаманець Карбованця</translation>
+        <translation>Про гаманець ParsiCoin</translation>
     </message>
 </context>
 <context>
@@ -1526,7 +1526,7 @@ Do you want to go to download page?</source>
     </message>
     <message>
         <source>parsicoin wallet</source>
-        <translation>Гаманець карбованця</translation>
+        <translation>Гаманець ParsiCoin</translation>
     </message>
     <message>
         <source>External port for p2p network protocol (if port forwarding used with NAT)</source>
@@ -1608,7 +1608,7 @@ Do you want to go to download page?</source>
     <name>WalletGui::MainWindow</name>
     <message>
         <source>About %1 Wallet</source>
-        <translation>Про гаманець Карбованця</translation>
+        <translation>Про гаманець ParsiCoin</translation>
     </message>
     <message>
         <source>New wallet file</source>

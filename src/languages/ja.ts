@@ -231,7 +231,7 @@
     <message>
         <location filename="../gui/ui/confirmsenddialog.ui" line="17"/>
         <source>Confirm sending %1 PARS</source>
-        <translation>1% KRB送信を承認</translation>
+        <translation>1% PARS送信を承認</translation>
     </message>
     <message>
         <location filename="../gui/ui/confirmsenddialog.ui" line="25"/>
@@ -2144,7 +2144,7 @@ Are you sure?</source>
     <message>
         <location filename="../gui/SendFrame.cpp" line="258"/>
         <source>Payment request should start with parsicoin:</source>
-        <translation>ペイメントリクエストはkarbowanecで始めなくてなならない</translation>
+        <translation>ペイメントリクエストはParsiCoinで始めなくてなならない</translation>
     </message>
     <message>
         <location filename="../gui/SendFrame.cpp" line="272"/>
