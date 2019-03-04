@@ -90,7 +90,7 @@ void Settings::load() {
   }
 
   QStringList defaultNodesList;
-  defaultNodesList << "node.parsicoin.net:18231"; // 
+  defaultNodesList << "node.parsicoin.net:18231" << "explorer.parsicoin.net:18231" << "wallet.parsicoin.net:18231"; // remote nodes
   if (!m_settings.contains(OPTION_RPCNODES)) {
     setRpcNodesList(QStringList() << defaultNodesList);
   } else {
