@@ -12,12 +12,12 @@
         <translation>Fermer</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ParsiCoin v. %1&lt;/p&gt;&lt;p&gt;This is the next generation anonymous cryptocurrency based on CryptoNote.&lt;/p&gt;&lt;p&gt;Copyright (c) 2012-2015. CryptoNote Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2015-2016. DigitalNote Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2018. ParsiCoin Developers&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://opensource.org/licenses/MIT&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cryptonote.org/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://cryptonote.org/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://ParsiCoin.Net/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://ParsiCoin.Net/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ParsiCoin v. %1&lt;/p&gt;&lt;p&gt;Ceci est la crypto-monnaie anonyme de la prochaine génération basée sur CryptoNote.&lt;/p&gt;&lt;p&gt;Copyright (c) 2012-2015. CryptoNote Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2015-2016. DigitalNote Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2018. parsicoin Developers&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://opensource.org/licenses/MIT&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cryptonote.org/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://cryptonote.org/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://ParsiCoin.Net/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://ParsiCoin.Net/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ParsiCoin v. %1&lt;/p&gt;&lt;p&gt;This is the next generation anonymous cryptocurrency based on CryptoNote.&lt;/p&gt;&lt;p&gt;Copyright (c) 2012-2015. CryptoNote Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2015-2016. DigitalNote Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2016-2017. Karbowanec Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2018-2019. ParsiCoin Developers&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://opensource.org/licenses/MIT&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cryptonote.org/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://cryptonote.org/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://parsicoin.net/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://parsicoin.net/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ParsiCoin v. %1&lt;/p&gt;&lt;p&gt;Ceci est la crypto-monnaie anonyme de la prochaine génération basée sur CryptoNote.&lt;/p&gt;&lt;p&gt;Copyright (c) 2012-2015. CryptoNote Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2015-2016. DigitalNote Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2016-2017. Karbowanec Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2018-2019. ParsiCoin Developers&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://opensource.org/licenses/MIT&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cryptonote.org/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://cryptonote.org/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://parsicoin.net/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://parsicoin.net/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ParsiCoin v. %1&lt;/p&gt;&lt;p&gt;This is the next generation anonymous cryptocurrency based on CryptoNote.&lt;/p&gt;&lt;p&gt;Copyright (c) 2012-2015. CryptoNote Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2012-2016. Bytecoin Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2015-2016. DigitalNote Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2018. ParsiCoin Developers&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://opensource.org/licenses/MIT&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cryptonote.org/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://cryptonote.org/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://ParsiCoin.Net/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://ParsiCoin.Net/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;THE SOFTWARE IS PROVIDED &amp;quot;AS IS&amp;quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ParsiCoin v. %1&lt;/p&gt;&lt;p&gt;Ceci est la crypto-monnaie anonyme de la prochaine génération basée sur CryptoNote.&lt;/p&gt;&lt;p&gt;Copyright (c) 2012-2015. CryptoNote Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2012-2016. Bytecoin Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2015-2016. DigitalNote Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2018. ParsiCoin Developers&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://opensource.org/licenses/MIT&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cryptonote.org/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://cryptonote.org/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://ParsiCoin.Net/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://ParsiCoin.Net/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;LA SOFTWARE EST FOURNIE &amp;quot;TELLE QUELLE&amp;quot;, SANS GARANTIE D&apos;AUCUNE SORTE, EXPLICITE OU IMPLICITE, NOTAMMENT SANS GARANTIE DE QUALITÉ MARCHANDE, D’ADÉQUATION À UN USAGE PARTICULIER ET D&apos;ABSENCE DE CONTREFAÇON. EN AUCUN CAS, LES AUTEURS OU TITULAIRES DU DROIT D&apos;AUTEUR NE SERONT RESPONSABLES DE TOUT DOMMAGE, RÉCLAMATION OU AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D&apos;UN CONTRAT, D&apos;UN DÉLIT OU AUTRE, EN PROVENANCE DE, CONSÉCUTIF À OU EN RELATION AVEC LA SOFTWARE OU SON UTILISATION, OU AVEC D&apos;AUTRES ÉLÉMENTS DE LA SOFTWARE.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ParsiCoin v. %1&lt;/p&gt;&lt;p&gt;This is the next generation anonymous cryptocurrency based on CryptoNote.&lt;/p&gt;&lt;p&gt;Copyright (c) 2012-2015. CryptoNote Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2012-2016. Bytecoin Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2015-2016. DigitalNote Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2016-2018. Karbo (Karbowanec) Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2018-2019. ParsiCoin (PARS) Developers&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://opensource.org/licenses/MIT&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cryptonote.org/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://cryptonote.org/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://parsicoin.net/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://parsicoin.net/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;THE SOFTWARE IS PROVIDED &amp;quot;AS IS&amp;quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ParsiCoin v. %1&lt;/p&gt;&lt;p&gt;Ceci est la crypto-monnaie anonyme de la prochaine génération basée sur CryptoNote.&lt;/p&gt;&lt;p&gt;Copyright (c) 2012-2015. CryptoNote Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2012-2016. Bytecoin Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2015-2016. DigitalNote Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2016-2018. Karbo (Karbowanec) Developers&lt;/p&gt;&lt;p&gt;Copyright (c) 2018-2019. ParsiCoin (PARS) Developers&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://opensource.org/licenses/MIT&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cryptonote.org/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://cryptonote.org/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://parsicoin.net/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://parsicoin.net/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;LA SOFTWARE EST FOURNIE &amp;quot;TELLE QUELLE&amp;quot;, SANS GARANTIE D&apos;AUCUNE SORTE, EXPLICITE OU IMPLICITE, NOTAMMENT SANS GARANTIE DE QUALITÉ MARCHANDE, D’ADÉQUATION À UN USAGE PARTICULIER ET D&apos;ABSENCE DE CONTREFAÇON. EN AUCUN CAS, LES AUTEURS OU TITULAIRES DU DROIT D&apos;AUTEUR NE SERONT RESPONSABLES DE TOUT DOMMAGE, RÉCLAMATION OU AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D&apos;UN CONTRAT, D&apos;UN DÉLIT OU AUTRE, EN PROVENANCE DE, CONSÉCUTIF À OU EN RELATION AVEC LA SOFTWARE OU SON UTILISATION, OU AVEC D&apos;AUTRES ÉLÉMENTS DE LA SOFTWARE.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
@@ -32,7 +32,7 @@
     </message>
     <message>
         <source>Show private key</source>
-        <translation>Afficher les clés privées</translation>
+        <translation>Afficher la clé privée</translation>
     </message>
     <message>
         <source>Your account:</source>
@@ -270,7 +270,7 @@
     </message>
     <message>
         <source>Built-in embedded node will be used.</source>
-        <translation>Un noeud intégré sera utilisé.</translation>
+        <translation>Un built-in nœud intégré sera utilisé.</translation>
     </message>
     <message>
         <source>Local daemon</source>
@@ -286,7 +286,7 @@
     </message>
     <message>
         <source>Remote daemon</source>
-        <translation>Daemon distant</translation>
+        <translation>Daemon disant</translation>
     </message>
     <message>
         <source>Add node</source>
@@ -297,21 +297,21 @@
         <translation>Supprimer le noeud</translation>
     </message>
     <message>
-        <source>Wallet will connect to remote node running in local or global network. Please select node or specify IP address or domain name and port. In this mode wallet sends 0.25% fee from each transaction to the node, but no more than 10 PARS.</source>
-        <translation>Le portefeuille se connecte au noeud distant en cours d&apos;exécution sur un réseau local ou global. Veuillez sélectionner un noeud ou spécifier une adresse IP ou un nom de domaine et un port. Dans ce mode, le portefeuille envoie des frais de 0,25% de chaque transaction au nœud, mais pas plus de 10 PARS.</translation>
+        <source>Wallet will connect to remote node running in local or global network. Please select node or specify IP address or domain name and port. In this mode wallet sends 0.25% fee from each transaction to the node, but no more than 1 PARS.</source>
+        <translation>Le portefeuille se connecte au noeud distant en cours d&apos;exécution sur un réseau local ou global. Veuillez sélectionner un noeud ou spécifier une adresse IP ou un nom de domaine et un port. Dans ce mode, le portefeuille envoie des frais de 0,25% de chaque transaction au nœud, mais pas plus de 1 PARS.</translation>
     </message>
 </context>
 <context>
     <name>ExitWidget</name>
     <message>
         <source>Saving data</source>
-        <translation>Sauvegarde des données</translation>
+        <translation>La sauvegarde des données</translation>
     </message>
     <message>
         <source>%1 wallet is saving data.
 Please wait...</source>
-        <translation>Le portefeuille %1 sauvegarde les données.
-Veuillez patientez...</translation>
+        <translation>%1 portefeuille sauvegarde les données.
+S&apos;il vous plaît, patientez...</translation>
     </message>
 </context>
 <context>
@@ -335,6 +335,37 @@ Veuillez patientez...</translation>
     <message>
         <source>Close</source>
         <translation>Fermer</translation>
+    </message>
+</context>
+<context>
+    <name>GetBalanceProofDialog</name>
+    <message>
+        <source>Signature</source>
+        <translation>Signature</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Message</translation>
+    </message>
+    <message>
+        <source>Save to file</source>
+        <translation>Enregistrer dans le fichier</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Fermer</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Montant</translation>
+    </message>
+    <message>
+        <source>Get proof of balance</source>
+        <translation>Confirmation de solde</translation>
+    </message>
+    <message>
+        <source>Copy</source>
+        <translation>Copier</translation>
     </message>
 </context>
 <context>
@@ -365,7 +396,7 @@ Veuillez patientez...</translation>
     </message>
     <message>
         <source>Where to save new wallet file:</source>
-        <translation>Où sauvegarder le nouveau fichier de portefeuille ?:</translation>
+        <translation>Où sauvegarder le nouveau fichier de portefeuille:</translation>
     </message>
     <message>
         <source>Select folder</source>
@@ -404,7 +435,7 @@ Veuillez patientez...</translation>
     </message>
     <message>
         <source>Where to save new wallet file:</source>
-        <translation>Où sauvegarder le nouveau fichier de portefeuille ?:</translation>
+        <translation>Où sauvegarder le nouveau fichier de portefeuille:</translation>
     </message>
     <message>
         <source>Select folder</source>
@@ -435,15 +466,15 @@ Veuillez patientez...</translation>
     </message>
     <message>
         <source>Height</source>
-        <translation>Taille</translation>
+        <translation>La taille</translation>
     </message>
     <message>
         <source>Difficulty</source>
-        <translation>Difficulté</translation>
+        <translation>La Difficulté</translation>
     </message>
     <message>
         <source>Transactions</source>
-        <translation>Transactions</translation>
+        <translation>Les transactions</translation>
     </message>
     <message>
         <source>Unconfirmed transactions</source>
@@ -466,7 +497,7 @@ Veuillez patientez...</translation>
     <name>MainWindow</name>
     <message>
         <source>MainWindow</source>
-        <translation>Fenêtre principale</translation>
+        <translation>FenêtrePrincipale</translation>
     </message>
     <message>
         <source>File</source>
@@ -502,7 +533,7 @@ Veuillez patientez...</translation>
     </message>
     <message>
         <source>Exit</source>
-        <translation>Quitter</translation>
+        <translation>Sortie</translation>
     </message>
     <message>
         <source>Ctrl+Q</source>
@@ -546,11 +577,11 @@ Veuillez patientez...</translation>
     </message>
     <message>
         <source>Minimize to tray</source>
-        <translation>Minimizer dans la barre des tâches</translation>
+        <translation>Minimizer au barre des tâches</translation>
     </message>
     <message>
         <source>Close to tray</source>
-        <translation>Fermer dans la barre des tâches</translation>
+        <translation>Fermer au barre des tâches</translation>
     </message>
     <message>
         <source>Import private key</source>
@@ -570,7 +601,7 @@ Veuillez patientez...</translation>
     </message>
     <message>
         <source>Language</source>
-        <translation>Langue</translation>
+        <translation>La langue</translation>
     </message>
     <message>
         <source>Change language</source>
@@ -634,11 +665,11 @@ Veuillez patientez...</translation>
     </message>
     <message>
         <source>Show mnemonic seed</source>
-        <translation>Afficher la graine mnémonique</translation>
+        <translation>Afficher les graines mnémotechniques</translation>
     </message>
     <message>
         <source>Restore from mnemonic seed</source>
-        <translation>Restaurer à partir de la graine mnémonique</translation>
+        <translation>Restaurer à partir de graines mnémotechniques</translation>
     </message>
     <message>
         <source>Create nondeterministic wallet</source>
@@ -646,7 +677,7 @@ Veuillez patientez...</translation>
     </message>
     <message>
         <source>Start pool mining automatically</source>
-        <translation>Démarrer lle pool mining automatiquement</translation>
+        <translation>Démarrer l&apos;exploration de la piscine automatiquement</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -654,7 +685,7 @@ Veuillez patientez...</translation>
     </message>
     <message>
         <source>Sweep unmixable</source>
-        <translation>Sweep unmixable</translation>
+        <translation>Balayer Non Mélangeables</translation>
     </message>
     <message>
         <source>Sign message</source>
@@ -663,6 +694,14 @@ Veuillez patientez...</translation>
     <message>
         <source>Verify signed message</source>
         <translation>Vérifier le message signé</translation>
+    </message>
+    <message>
+        <source>Optimization</source>
+        <translation>Optimisation</translation>
+    </message>
+    <message>
+        <source>Get proof of balance</source>
+        <translation>Confirmation de solde</translation>
     </message>
 </context>
 <context>
@@ -673,15 +712,15 @@ Veuillez patientez...</translation>
     </message>
     <message>
         <source>Mining status</source>
-        <translation>Statut du mining</translation>
+        <translation>Statut minier</translation>
     </message>
     <message>
         <source>CPU cores</source>
-        <translation>Coeurs de processeurs</translation>
+        <translation>Cœurs de processeurs</translation>
     </message>
     <message>
         <source>Select pool</source>
-        <translation>Sélectionnez le pool</translation>
+        <translation>Sélectionnez le groupement</translation>
     </message>
     <message>
         <source>Stopped</source>
@@ -689,15 +728,15 @@ Veuillez patientez...</translation>
     </message>
     <message>
         <source>Add pool</source>
-        <translation>Ajouter le pool</translation>
+        <translation>Ajouter le groupment</translation>
     </message>
     <message>
         <source>Start mining</source>
-        <translation>Démarrer le mining</translation>
+        <translation>Démarrer l&apos;exploitation</translation>
     </message>
     <message>
         <source>Pause mining</source>
-        <translation>Mettre le mining en pause</translation>
+        <translation>Pauser l&apos;exploitation</translation>
     </message>
     <message>
         <source>Settings</source>
@@ -705,15 +744,15 @@ Veuillez patientez...</translation>
     </message>
     <message>
         <source>Pool mining</source>
-        <translation>Pool mining</translation>
+        <translation>L&apos;exploitation de groupment</translation>
     </message>
     <message>
         <source>Stop mining</source>
-        <translation>Arrêter le mining</translation>
+        <translation>Arrêter l&apos;exploitation</translation>
     </message>
     <message>
         <source>Solo mining</source>
-        <translation>Solo mining</translation>
+        <translation>Exploitation solo</translation>
     </message>
     <message>
         <source>Status</source>
@@ -721,11 +760,11 @@ Veuillez patientez...</translation>
     </message>
     <message>
         <source>Remove pool</source>
-        <translation>Supprimer le pool</translation>
+        <translation>Supprimer le groupment</translation>
     </message>
     <message>
         <source>Mining status:</source>
-        <translation>Statut du mining:</translation>
+        <translation>Statut de l&apos;exploitation:</translation>
     </message>
 </context>
 <context>
@@ -751,7 +790,7 @@ Veuillez patientez...</translation>
     </message>
     <message>
         <source>Label:</source>
-        <translation>Label:</translation>
+        <translation>Le label:</translation>
     </message>
     <message>
         <source>Address:</source>
@@ -824,7 +863,7 @@ Veuillez patientez...</translation>
     <name>NewPoolDialog</name>
     <message>
         <source>New pool</source>
-        <translation>Nouveau pool</translation>
+        <translation>Nouveau groupment</translation>
     </message>
     <message>
         <source>Host:</source>
@@ -851,7 +890,7 @@ Veuillez patientez...</translation>
     </message>
     <message>
         <source>Welcome to ParsiCoin Wallet!</source>
-        <translation>Bienvenue dans le portefeuille ParsiCoin !</translation>
+        <translation>Bienvenue sur ParsiCoin Wallet!</translation>
     </message>
     <message>
         <source>Create wallet</source>
@@ -879,6 +918,69 @@ Veuillez patientez...</translation>
     <message>
         <source>OK</source>
         <translation>OK</translation>
+    </message>
+</context>
+<context>
+    <name>OptimizationSettingsDialog</name>
+    <message>
+        <source>Wallet optimization settings</source>
+        <translation>Paramètres d&apos;optimisation du portefeuille</translation>
+    </message>
+    <message>
+        <source>Run background wallet optimization</source>
+        <translation>Exécuter l&apos;optimisation de l&apos;arrière-plan du portefeuille</translation>
+    </message>
+    <message>
+        <source>(Recommended)</source>
+        <translation>(Conseillé)</translation>
+    </message>
+    <message>
+        <source>Optimization target</source>
+        <translation>Cible d&apos;optimisation</translation>
+    </message>
+    <message>
+        <source>Anonymity level</source>
+        <translation>Niveau d&apos;anonymat</translation>
+    </message>
+    <message>
+        <source>0</source>
+        <translation type="unfinished">0</translation>
+    </message>
+    <message>
+        <source>outputs below selected target</source>
+        <translation>sorties sont en dessous de la cible sélectionnée</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>De</translation>
+    </message>
+    <message>
+        <source>HH:mm</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>à</translation>
+    </message>
+    <message>
+        <source>Specific time for optimization transactions</source>
+        <translation>Heure spécifique pour l&apos;optimisation</translation>
+    </message>
+    <message>
+        <source>Send optimization transactions each</source>
+        <translation>Envoyez des transactions d&apos;optimisation toutes les</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Annuler</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>Sauvegarder</translation>
+    </message>
+    <message>
+        <source>Wallet optimization is a background task performed in order to aggregate transactions outputs that are below optimization target into bigger ones. It allows to send larger amounts of PARS within one transaction. Wallet optimization is free for all users but takes some time.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -917,7 +1019,7 @@ Veuillez patientez...</translation>
     </message>
     <message>
         <source>Unmixable dust:</source>
-        <translation>Unmixable dust:</translation>
+        <translation>Non Mélangeables:</translation>
     </message>
     <message>
         <source>0.00</source>
@@ -1001,11 +1103,11 @@ Veuillez patientez...</translation>
     </message>
     <message>
         <source>Loading blockchain...</source>
-        <translation>Chargement de la blockchain ...</translation>
+        <translation>Chargement de blockchain ...</translation>
     </message>
     <message>
         <source>%1 wallet already running or cannot create lock file %2. Check your permissions.</source>
-        <translation>Le portefeuille %1 en cours d&apos;exécution ou ne peut pas créer le fichier de verrouillage %2. Vérifiez vos autorisations.</translation>
+        <translation>%1 portefeuille en cours d&apos;exécution ou ne peut pas créer le fichier de verrouillage %2. Vérifiez vos autorisations.</translation>
     </message>
     <message>
         <source>New version available</source>
@@ -1042,7 +1144,7 @@ Voulez-vous aller à la page de téléchargement?</translation>
     </message>
     <message>
         <source>Label:</source>
-        <translation>Label:</translation>
+        <translation>Le label:</translation>
     </message>
     <message>
         <source>Enter a label for this payer</source>
@@ -1081,7 +1183,7 @@ Voulez-vous aller à la page de téléchargement?</translation>
     <name>RestoreFromMnemonicSeedDialog</name>
     <message>
         <source>Restore from mnemonic phrase</source>
-        <translation>Restaurer à partir de la phrase mnémonique</translation>
+        <translation>Restaurer à partir de la phrase mnémotechnique</translation>
     </message>
     <message>
         <source>Mnemonic:</source>
@@ -1105,7 +1207,7 @@ Voulez-vous aller à la page de téléchargement?</translation>
     </message>
     <message>
         <source>Where to save new wallet file:</source>
-        <translation>Où sauvegarder le nouveau fichier de portefeuille ?:</translation>
+        <translation>Où sauvegarder le nouveau fichier de portefeuille:</translation>
     </message>
     <message>
         <source>Select folder</source>
@@ -1148,11 +1250,11 @@ Voulez-vous aller à la page de téléchargement?</translation>
     </message>
     <message>
         <source>Payment identifier issued by payee (exchange, shop or other entity)</source>
-        <translation>Identifiant de paiement émis par le bénéficiaire (Exchange, magasin ou autre entité)</translation>
+        <translation>Identifiant de paiement émis par le bénéficiaire (échange, magasin ou autre entité)</translation>
     </message>
     <message>
         <source>Donate 0.1% to development fund:</source>
-        <translation>Faire un don de 0,1 % au fonds de développement:</translation>
+        <translation>Faire un don de 0,1% au fonds de développement:</translation>
     </message>
     <message>
         <source>Generate Payment ID</source>
@@ -1376,7 +1478,7 @@ Voulez-vous aller à la page de téléchargement?</translation>
     </message>
     <message>
         <source>This is mnemonic seed of your wallet. Write it down carefully. It allows to restore your wallet.</source>
-        <translation>C&apos;est la graine mnémonique de votre portefeuille. Notez-la soigneusement. Cela vous permettra de restaurer votre portefeuille.</translation>
+        <translation>C&apos;est la graine mnémotechnique de votre portefeuille. Ecrivez-le soigneusement. Cela permet de restaurer votre portefeuille.</translation>
     </message>
     <message>
         <source>Mnemonic:</source>
@@ -1449,15 +1551,15 @@ Voulez-vous aller à la page de téléchargement?</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>&amp;Editer</translation>
+        <translation>&amp;Edit</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Supprimer</translation>
+        <translation>&amp;Delete</translation>
     </message>
     <message>
         <source>Contact with such label already exists.</source>
-        <translation>Un contact avec ce label existe déjà.</translation>
+        <translation>Le contact avec cet label existe déjà.</translation>
     </message>
     <message>
         <source>&amp;Pay to</source>
@@ -1514,7 +1616,7 @@ Voulez-vous aller à la page de téléchargement?</translation>
     </message>
     <message>
         <source>Manually add peer to local peerlist</source>
-        <translation>Ajouter manuellement un pair à une peerlist locale</translation>
+        <translation>Ajouter manuellement un pair à une lpeerlist locale</translation>
     </message>
     <message>
         <source>peer</source>
@@ -1526,7 +1628,7 @@ Voulez-vous aller à la page de téléchargement?</translation>
     </message>
     <message>
         <source>node</source>
-        <translation>noeud</translation>
+        <translation>nœud</translation>
     </message>
     <message>
         <source>Specify list of peers to connect to only. If this option is given the options add-priority-node and seed-node are ignored</source>
@@ -1534,7 +1636,7 @@ Voulez-vous aller à la page de téléchargement?</translation>
     </message>
     <message>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Connecter à un noeud pour récupérer des adresses des peers et déconnecter</translation>
+        <translation>Connecter à un nœud pour récupérer des adresses des peers et déconnecter</translation>
     </message>
     <message>
         <source>Do not announce yourself as peerlist candidate</source>
@@ -1546,15 +1648,15 @@ Voulez-vous aller à la page de téléchargement?</translation>
     </message>
     <message>
         <source>directory</source>
-        <translation>répertoire</translation>
+        <translation>directoire</translation>
     </message>
     <message>
         <source>Run application in minimized mode</source>
         <translation>Exécuter l&apos;application en mode minimisé</translation>
     </message>
     <message>
-        <source>parsicoin wallet</source>
-        <translation>portefeuille parsicoin</translation>
+        <source>ParsiCoin wallet</source>
+        <translation>ParsiCoin portefeuille</translation>
     </message>
     <message>
         <source>External port for p2p network protocol (if port forwarding used with NAT)</source>
@@ -1580,11 +1682,18 @@ Voulez-vous aller à la page de téléchargement?</translation>
     <name>WalletGui::ExportTrackingKeyDialog</name>
     <message>
         <source>Save tracking key to...</source>
-        <translation>Enregistrer la clé de suivi dans ...</translation>
+        <translation>Enregistrer la clé de suivi à ...</translation>
     </message>
     <message>
         <source>Tracking key (*.trackingkey)</source>
         <translation>Clé de suivi (*.trackingkey)</translation>
+    </message>
+</context>
+<context>
+    <name>WalletGui::GetBalanceProofDialog</name>
+    <message>
+        <source>Save as</source>
+        <translation>Enregistrer dans le fichier</translation>
     </message>
 </context>
 <context>
@@ -1636,7 +1745,7 @@ Voulez-vous aller à la page de téléchargement?</translation>
     <name>WalletGui::MainWindow</name>
     <message>
         <source>About %1 Wallet</source>
-        <translation>À propos du Portefeuille %1 </translation>
+        <translation>À propos de %1 Portefeuille</translation>
     </message>
     <message>
         <source>New wallet file</source>
@@ -1665,7 +1774,7 @@ Voulez-vous aller à la page de téléchargement?</translation>
     <message>
         <source>Your wallet will be reset and restored from blockchain.
 Are you sure?</source>
-        <translation>Votre portefeuille sera réinitialisé et restauré à partir de la blockchain.
+        <translation>Votre portefeuille sera réinitialisé et restauré à partir de blockchain.
 Êtes-vous sûr?</translation>
     </message>
     <message>
@@ -1713,8 +1822,8 @@ Are you sure?</source>
         <translation>%1 Portefeuille %2</translation>
     </message>
     <message>
-        <source>More info can be found at www.ParsiCoin.Net in Documentation section</source>
-        <translation>Plus d&apos;informations peuvent être trouvées sur www.ParsiCoin.Net dans la section Documentation</translation>
+        <source>More info can be found at www.parsicoin.net in Help section</source>
+        <translation>Plus d&apos;informations peuvent être trouvées sur www.parsicoin.net dans la section Help</translation>
     </message>
     <message>
         <source>Connection settings changed</source>
@@ -1745,11 +1854,11 @@ Are you sure?</source>
     </message>
     <message>
         <source>ParsiCoin Wallet %1</source>
-        <translation>Portefeuille ParsiCoin %1</translation>
+        <translation>ParsiCoin Portefeuille %1</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;Afficher/ Cacher</translation>
+        <translation>&amp;Show / Hide</translation>
     </message>
     <message>
         <source>Show or hide the main window</source>
@@ -1832,7 +1941,7 @@ Are you sure?</source>
     <name>WalletGui::MiningFrame</name>
     <message>
         <source>Mining. Hashrate: %1 H/s</source>
-        <translation>L&apos;mining. Hashrate: %1 H/s</translation>
+        <translation>L&apos;extraction. Hashrate: %1 H/s</translation>
     </message>
     <message>
         <source>Error: %1</source>
@@ -1848,15 +1957,15 @@ Are you sure?</source>
     </message>
     <message>
         <source>Mining solo. Hashrate: %1 H/s</source>
-        <translation>Mining solo. Hashrate: %1 H/s</translation>
+        <translation>L&apos;extraction solo. Hashrate: %1 H/s</translation>
     </message>
     <message>
         <source>Starting solo minining...</source>
-        <translation>Démarrage du mining en solo ...</translation>
+        <translation>Démarrage de l&apos;extraction en solo ...</translation>
     </message>
     <message>
         <source>Mining in pool. Hashrate: %1 H/s</source>
-        <translation>Pool mining. Hashrate: %1 H/s</translation>
+        <translation>L&apos;extraction en groupment. Hashrate: %1 H/s</translation>
     </message>
 </context>
 <context>
@@ -1874,21 +1983,84 @@ Are you sure?</source>
     </message>
 </context>
 <context>
+    <name>WalletGui::OptimizationSettingsDialog</name>
+    <message>
+        <source>30 minutes</source>
+        <translation>30 minutes</translation>
+    </message>
+    <message>
+        <source>1 hour</source>
+        <translation>1 heure</translation>
+    </message>
+    <message>
+        <source>1.5 hours</source>
+        <translation>1,5 heure</translation>
+    </message>
+    <message>
+        <source>2 hours</source>
+        <translation>2 heures</translation>
+    </message>
+    <message>
+        <source>2.5 hours</source>
+        <translation>2,5 heures</translation>
+    </message>
+    <message>
+        <source>3 hours</source>
+        <translation>3 heures</translation>
+    </message>
+    <message>
+        <source>3.5 hours</source>
+        <translation>3,5 heures</translation>
+    </message>
+    <message>
+        <source>4 hours</source>
+        <translation>4 heures</translation>
+    </message>
+    <message>
+        <source>4.5 hours</source>
+        <translation>4,5 heures</translation>
+    </message>
+    <message>
+        <source>5 hours</source>
+        <translation>5 heures</translation>
+    </message>
+    <message>
+        <source>5.5 hours</source>
+        <translation>5,5 heures</translation>
+    </message>
+    <message>
+        <source>6 hours</source>
+        <translation>6 heures</translation>
+    </message>
+    <message>
+        <source>Wallet is currently optimized for this target</source>
+        <translation>Le portefeuille est actuellement optimisé pour cette cible</translation>
+    </message>
+    <message>
+        <source> outputs below selected target</source>
+        <translation> sorties sont en dessous de la cible sélectionnée</translation>
+    </message>
+    <message>
+        <source>Wallet is closed</source>
+        <translation>Le portefeuille est fermé</translation>
+    </message>
+</context>
+<context>
     <name>WalletGui::PoolModel</name>
     <message>
         <source>Pool URL</source>
-        <translation>URL du pool</translation>
+        <translation>Engroupment du URL</translation>
     </message>
 </context>
 <context>
     <name>WalletGui::QRLabel</name>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>&amp;Sauvegarder l&apos;image...</translation>
+        <translation>&amp;Save Image...</translation>
     </message>
     <message>
         <source>&amp;Copy Image</source>
-        <translation>&amp;Copier l&apos;image</translation>
+        <translation>&amp;Copy Image</translation>
     </message>
     <message>
         <source>Save QR Code</source>
@@ -1965,7 +2137,7 @@ Are you sure?</source>
     </message>
     <message>
         <source>You have unmixable dust on balance. Use menu &apos;Wallet -&gt; Sweep unmixable&apos; first.</source>
-        <translation>Vous avez une dust unmixable dans votre balance. Utilisez d&apos;abord le menu &apos;Portefeuille -&gt; Balayer Non Mélangeables&apos;.</translation>
+        <translation>Vous avez un équilibre immiscible. Utilisez d&apos;abord le menu &apos;Portefeuille -&gt; Balayer Non Mélangeables&apos;.</translation>
     </message>
 </context>
 <context>
@@ -1997,11 +2169,11 @@ quand le portefeuille aura terminé la synchronisation</translation>
     </message>
     <message>
         <source>Signature is invalid!</source>
-        <translation>La signature est non valide !</translation>
+        <translation>La signature est invalide!</translation>
     </message>
     <message>
         <source>Address is invalid!</source>
-        <translation>L&apos;adresse est non valide !</translation>
+        <translation>L&apos;adresse est invalide!</translation>
     </message>
 </context>
 <context>
@@ -2066,6 +2238,32 @@ quand le portefeuille aura terminé la synchronisation</translation>
     <message>
         <source>(n/a)</source>
         <translation>(n/a)</translation>
+    </message>
+    <message>
+        <source>&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Cantarell&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Status: &lt;/span&gt;%1&lt;br&gt;
+&lt;span style=&quot; font-weight:600;&quot;&gt;Date: &lt;/span&gt;%2&lt;br&gt;
+&lt;span style=&quot; font-weight:600;&quot;&gt;To: &lt;/span&gt;%4&lt;br&gt;
+&lt;span style=&quot; font-weight:600;&quot;&gt;Amount: &lt;/span&gt;%5&lt;br&gt;
+&lt;span style=&quot; font-weight:600;&quot;&gt;Fee: &lt;/span&gt;%6&lt;br&gt;
+&lt;span style=&quot; font-weight:600;&quot;&gt;Payment ID: &lt;/span&gt;%7&lt;br&gt;
+&lt;span style=&quot; font-weight:600;&quot;&gt;Transaction Hash: &lt;/span&gt;%8&lt;br&gt;
+&lt;span style=&quot; font-weight:600;&quot;&gt;Transaction Key: &lt;/span&gt;%9&lt;br&gt;
+&lt;span style=&quot; font-weight:600;&quot;&gt;Transaction Proof: &lt;/span&gt;%10
+&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Cantarell&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Statut: &lt;/span&gt;%1&lt;br&gt;
+&lt;span style=&quot; font-weight:600;&quot;&gt;Date: &lt;/span&gt;%2&lt;br&gt;
+&lt;span style=&quot; font-weight:600;&quot;&gt;À: &lt;/span&gt;%4&lt;br&gt;
+&lt;span style=&quot; font-weight:600;&quot;&gt;Montant: &lt;/span&gt;%5&lt;br&gt;
+&lt;span style=&quot; font-weight:600;&quot;&gt;Frais: &lt;/span&gt;%6&lt;br&gt;
+&lt;span style=&quot; font-weight:600;&quot;&gt;ID de paiement: &lt;/span&gt;%7&lt;br&gt;
+&lt;span style=&quot; font-weight:600;&quot;&gt;Hachage de transaction: &lt;/span&gt;%8&lt;br&gt;
+&lt;span style=&quot; font-weight:600;&quot;&gt;Clé de transaction: &lt;/span&gt;%9&lt;br&gt;
+&lt;span style=&quot; font-weight:600;&quot;&gt;Preuve de transaction: &lt;/span&gt;%10
+&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
@@ -2246,7 +2444,7 @@ quand le portefeuille aura terminé la synchronisation</translation>
     </message>
     <message>
         <source>Saving data</source>
-        <translation>Sauvegarde des données</translation>
+        <translation>La sauvegarde des données</translation>
     </message>
     <message>
         <source>Sending transaction</source>
@@ -2306,7 +2504,7 @@ quand le portefeuille aura terminé la synchronisation</translation>
     </message>
     <message>
         <source>The destination is empty</source>
-        <translation>La destination est vide</translation>
+        <translation>The destination is empty</translation>
     </message>
     <message>
         <source>Impossible to cancel transaction</source>
@@ -2314,7 +2512,7 @@ quand le portefeuille aura terminé la synchronisation</translation>
     </message>
     <message>
         <source>The wallet is in wrong state (maybe loading or saving), try again later</source>
-        <translation>Le portefeuille est occupé (peut-être entrain de charger ou de sauvegarder), veuillez réessayer plus tard</translation>
+        <translation>Le portefeuille est dans un mauvais état (peut-être charger ou sauvegarder), réessayez plus tard</translation>
     </message>
     <message>
         <source>The operation you&apos;ve requested has been cancelled</source>
@@ -2322,7 +2520,7 @@ quand le portefeuille aura terminé la synchronisation</translation>
     </message>
     <message>
         <source>Transaction transfer impossible</source>
-        <translation>Transfert de transaction impossible</translation>
+        <translation>Transfert de transaction est impossible</translation>
     </message>
     <message>
         <source>Wrong version</source>
@@ -2330,7 +2528,7 @@ quand le portefeuille aura terminé la synchronisation</translation>
     </message>
     <message>
         <source>Transaction fee is too small</source>
-        <translation>Les frais de transaction sont trop faibles</translation>
+        <translation>Les frais de transaction sont trop petits</translation>
     </message>
     <message>
         <source>Cannot generate new key</source>
@@ -2358,7 +2556,7 @@ quand le portefeuille aura terminé la synchronisation</translation>
     </message>
     <message>
         <source>Requested wallet not found</source>
-        <translation>Portefeuille requis introuvable</translation>
+        <translation>Le portefeuille requis introuvable</translation>
     </message>
     <message>
         <source>Change address required</source>
@@ -2402,7 +2600,31 @@ quand le portefeuille aura terminé la synchronisation</translation>
     </message>
     <message>
         <source>Sweeping unmixable dust</source>
-        <translation>Sweeping unmixable dust</translation>
+        <translation>Balayer non mélangeable</translation>
+    </message>
+    <message>
+        <source>Optimizing wallet</source>
+        <translation>Optimiser le portefeuille</translation>
+    </message>
+    <message>
+        <source>Failed to get the transaction proof</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Failed to get the transaction proof.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Failed to get the reserve proof</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This is tracking wallet. The reserve proof can be generated only by a full wallet.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Failed to get the reserve proof.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

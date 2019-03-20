@@ -1,7 +1,6 @@
 // Copyright (c) 2011-2016 The Cryptonote developers
 // Copyright (c) 2015-2016 XDN developers
 // Copyright (c) 2016 Karbowanec developers
-// Copyright (c) 2018 The ParsiCoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -44,7 +43,7 @@ void AddressProvider::readyRead() {
 
   QJsonObject obj = doc.object();
 
-  QString address = obj.value("hyrjMmPhaznQkJD6C9dcmbBH9y6r9vYAg2aTG9CHSzL1R89xrFi7wj1azmkXyLPiWDBeTCsKGMmr6JzygbP2ZGSN2JqWs1WcK").toString();
+  QString address = obj.value("PARSGnjdcRG4gY9g4rMTFAEHZLGU7uK8YMiFY3Do1uzoMz4LMA6PqmdPp7ZxDu25b56RyhCevkWjbAMng532iFFj8L5RaPyT4s").toString();
 
   if (!address.isEmpty()) {
     Q_EMIT addressFoundSignal(address);

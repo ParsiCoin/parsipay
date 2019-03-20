@@ -1,6 +1,5 @@
 // Copyright (c) 2011-2015 The Cryptonote developers
 // Copyright (c) 2016-2017 The Karbowanec developers
-// Copyright (c) 2018 The ParsiCoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #include <QApplication>
@@ -73,11 +72,11 @@ int main(int argc, char* argv[]) {
   }
 
   //Create registry entries for URL execution
-  QSettings karbowanecKey("HKEY_CLASSES_ROOT\\parsicoin", QSettings::NativeFormat);
-  karbowanecKey.setValue(".", "PARS Wallet");
-  karbowanecKey.setValue("URL Protocol", "");
-  QSettings karbowanecOpenKey("HKEY_CLASSES_ROOT\\parsicoin\\shell\\open\\command", QSettings::NativeFormat);
-  karbowanecOpenKey.setValue(".", "\"" + QCoreApplication::applicationFilePath().replace("/", "\\") + "\" \"%1\"");
+  QSettings parsicoinKey("HKEY_CLASSES_ROOT\\parsicoin", QSettings::NativeFormat);
+  parsicoinKey.setValue(".", "ParsiCoin Wallet");
+  parsicoinKey.setValue("URL Protocol", "");
+  QSettings parsicoinOpenKey("HKEY_CLASSES_ROOT\\parsicoin\\shell\\open\\command", QSettings::NativeFormat);
+  parsicoinOpenKey.setValue(".", "\"" + QCoreApplication::applicationFilePath().replace("/", "\\") + "\" \"%1\"");
 #endif
 
 #if defined(Q_OS_LINUX)
@@ -85,7 +84,7 @@ int main(int argc, char* argv[]) {
   QProcess exec;
 
   //as root
-  args << "-c" << "printf '[Desktop Entry]\\nName = PARS URL Handler\\nGenericName = PARS\\nComment = Handle URL Sheme parsicoin://\\nExec = " + QCoreApplication::applicationFilePath() + " %%u\\nTerminal = false\\nType = Application\\nMimeType = x-scheme-handler/parsicoin;\\nIcon = PARS-Wallet' | tee /usr/share/applications/parsicoin-handler.desktop";
+  args << "-c" << "printf '[Desktop Entry]\\nName = ParsiCoin URL Handler\\nGenericName = ParsiCoin\\nComment = Handle URL Sheme parsicoin://\\nExec = " + QCoreApplication::applicationFilePath() + " %%u\\nTerminal = false\\nType = Application\\nMimeType = x-scheme-handler/parsicoin;\\nIcon = ParsiCoin-Wallet' | tee /usr/share/applications/parsicoin-handler.desktop";
   exec.start("/bin/sh", args);
   exec.waitForFinished();
 
@@ -117,7 +116,7 @@ int main(int argc, char* argv[]) {
     splash->show();
   }
 
-  splash->showMessage(QObject::tr("Loading BlockChain ..."), Qt::AlignLeft | Qt::AlignBottom, Qt::white);
+  splash->showMessage(QObject::tr("Loading blockchain..."), Qt::AlignLeft | Qt::AlignBottom, Qt::white);
 
   app.processEvents();
   qRegisterMetaType<CryptoNote::TransactionId>("CryptoNote::TransactionId");

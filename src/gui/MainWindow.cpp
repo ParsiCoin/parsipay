@@ -2,7 +2,6 @@
 // Copyright (c) 2011-2013 The Bitcoin Core developers
 // Copyright (c) 2015-2016 XDN developers
 // Copyright (c) 2016-2018 The Karbowanec developers
-// Copyright (c) 2018 The ParsiCoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -28,6 +27,7 @@
 #include "AddressBookModel.h"
 #include "ChangePasswordDialog.h"
 #include "ConnectionSettings.h"
+#include "OptimizationSettings.h"
 #include "PrivateKeysDialog.h"
 #include "ExportTrackingKeyDialog.h"
 #include "ImportTrackingKeyDialog.h"
@@ -36,6 +36,7 @@
 #include "ExitWidget.h"
 #include "ImportKeyDialog.h"
 #include "RestoreFromMnemonicSeedDialog.h"
+#include "GetBalanceProofDialog.h"
 #include "MainWindow.h"
 #include "NewPasswordDialog.h"
 #include "NodeAdapter.h"
@@ -75,7 +76,7 @@ MainWindow& MainWindow::instance() {
 }
 
 MainWindow::MainWindow() : QMainWindow(), m_ui(new Ui::MainWindow), m_trayIcon(nullptr), m_tabActionGroup(new QActionGroup(this)),
-  m_isAboutToQuit(false), paymentServer(0), maxRecentFiles(10), trayIconMenu(0), toggleHideAction(0) {
+  m_isAboutToQuit(false), paymentServer(0), optimizationManager(nullptr), maxRecentFiles(10), trayIconMenu(0), toggleHideAction(0) {
   m_ui->setupUi(this);
   m_connectionStateIconLabel = new QPushButton();
   m_connectionStateIconLabel->setFlat(true); // Make the button look like a label, but clickable
@@ -88,13 +89,14 @@ MainWindow::MainWindow() : QMainWindow(), m_ui(new Ui::MainWindow), m_trayIcon(n
   connectToSignals();
   createLanguageMenu();
   initUi();
-
   walletClosed();
 }
 
 MainWindow::~MainWindow() {
     delete paymentServer;
     paymentServer = 0;
+    delete optimizationManager;
+    optimizationManager = 0;
     //if(m_trayIcon) // Hide tray icon, as deleting will let it linger until quit (on Ubuntu)
     //  m_trayIcon->hide();
     #ifdef Q_OS_MAC
@@ -128,6 +130,7 @@ void MainWindow::connectToSignals() {
   connect(m_ui->m_sendFrame, &SendFrame::uriOpenSignal, this, &MainWindow::onUriOpenSignal, Qt::QueuedConnection);
   connect(m_ui->m_noWalletFrame, &NoWalletFrame::createWalletClickedSignal, this, &MainWindow::createWallet, Qt::QueuedConnection);
   connect(m_ui->m_noWalletFrame, &NoWalletFrame::openWalletClickedSignal, this, &MainWindow::openWallet, Qt::QueuedConnection);
+  connect(m_ui->m_addressBookFrame, &AddressBookFrame::payToSignal, this, &MainWindow::payTo);
   connect(m_connectionStateIconLabel, SIGNAL(clicked()), this, SLOT(showStatusInfo()));
 }
 
@@ -221,6 +224,7 @@ void MainWindow::initUi() {
   m_ui->m_closeToTrayAction->deleteLater();
 #endif
 
+  OptimizationManager* optimizationManager = new OptimizationManager(this);
   createTrayIconMenu();
 }
 
@@ -535,6 +539,8 @@ void MainWindow::isTrackingMode() {
   m_ui->m_openUriAction->setEnabled(false);
   m_ui->m_showMnemonicSeedAction->setEnabled(false);
   m_ui->m_sweepUnmixableAction->setEnabled(false);
+  m_ui->m_optimizationAction->setEnabled(false);
+  m_ui->m_proofBalanceAction->setEnabled(false);
   m_trackingModeIconLabel->show();
 }
 
@@ -660,7 +666,7 @@ void MainWindow::DisplayCmdLineHelp() {
     QMessageBox *msg = new QMessageBox(QMessageBox::Information, QObject::tr("Help"),
                        cmdLineParser.getHelpText(),
                        QMessageBox::Ok, this);
-    msg->setInformativeText(tr("More info can be found at www.ParsiCoin.net in Documentation section"));
+    msg->setInformativeText(tr("More info can be found at ParsiCoin.Net in Help section"));
     QFont font = QFontDatabase::systemFont(QFontDatabase::FixedFont);
     msg->setFont(font);
     QSpacerItem* horizontalSpacer = new QSpacerItem(650, 0, QSizePolicy::Minimum, QSizePolicy::Expanding);
@@ -676,7 +682,6 @@ void MainWindow::openConnectionSettings() {
     dlg.setRemoteNode();
     dlg.setLocalDaemonPort();
     if (dlg.exec() == QDialog::Accepted) {
-
       QString connection = dlg.setConnectionMode();
       Settings::instance().setConnection(connection);
 
@@ -688,6 +693,16 @@ void MainWindow::openConnectionSettings() {
 
       QMessageBox::information(this, tr("Connection settings changed"), tr("Connection mode will be changed after restarting the wallet."), QMessageBox::Ok);
     }
+}
+
+void MainWindow::openOptimizationSettings() {
+  OptimizationSettingsDialog dlg(&MainWindow::instance());
+  dlg.exec();
+}
+
+void MainWindow::getBalanceProof() {
+  GetBalanceProofDialog dlg(&MainWindow::instance());
+  dlg.exec();
 }
 
 void MainWindow::showStatusInfo() {
@@ -915,6 +930,7 @@ void MainWindow::peerCountUpdated(quint64 _peerCount) {
 void MainWindow::walletSynchronizationInProgress() {
   qobject_cast<AnimatedLabel*>(m_synchronizationStateIconLabel)->startAnimation();
   m_synchronizationStateIconLabel->setToolTip(tr("Synchronization in progress"));
+  m_ui->m_proofBalanceAction->setEnabled(false);
 }
 
 void MainWindow::walletSynchronized(int _error, const QString& _error_text) {
@@ -923,6 +939,9 @@ void MainWindow::walletSynchronized(int _error, const QString& _error_text) {
   m_synchronizationStateIconLabel->setPixmap(syncIcon);
   QString syncLabelTooltip = _error > 0 ? tr("Not synchronized") : tr("Synchronized");
   m_synchronizationStateIconLabel->setToolTip(syncLabelTooltip);
+  if (WalletAdapter::instance().getActualBalance() > 0) {
+    m_ui->m_proofBalanceAction->setEnabled(true);
+  }
 }
 
 void MainWindow::walletOpened(bool _error, const QString& _error_text) {
@@ -938,6 +957,7 @@ void MainWindow::walletOpened(bool _error, const QString& _error_text) {
     m_ui->m_resetAction->setEnabled(true);
     m_ui->m_openUriAction->setEnabled(true);
     m_ui->m_sweepUnmixableAction->setEnabled(true);
+    m_ui->m_optimizationAction->setEnabled(true);
     m_ui->m_signMessageAction->setEnabled(true);
     m_ui->m_verifySignedMessageAction->setEnabled(true);
     if(WalletAdapter::instance().isDeterministic()) {
@@ -980,8 +1000,10 @@ void MainWindow::walletClosed() {
   m_ui->m_resetAction->setEnabled(false);
   m_ui->m_showMnemonicSeedAction->setEnabled(false);
   m_ui->m_sweepUnmixableAction->setEnabled(false);
+  m_ui->m_optimizationAction->setEnabled(false);
   m_ui->m_signMessageAction->setEnabled(false);
   m_ui->m_verifySignedMessageAction->setEnabled(false);
+  m_ui->m_proofBalanceAction->setEnabled(false);
   m_ui->m_overviewFrame->hide();
   accountWidget->setVisible(false);
   m_ui->m_receiveFrame->hide();
@@ -1067,6 +1089,11 @@ void MainWindow::createTrayIconMenu()
     trayIconMenu->addSeparator();
     trayIconMenu->addAction(m_ui->m_exitAction);
 #endif
+}
+
+void MainWindow::payTo(const QModelIndex& _index) {
+  m_ui->m_sendFrame->setAddress(_index.data(AddressBookModel::ROLE_ADDRESS).toString());
+  m_ui->m_sendAction->trigger();
 }
 
 #ifdef Q_OS_WIN

@@ -1,6 +1,5 @@
 // Copyright (c) 2011-2015 The Cryptonote developers
 // Copyright (c) 2016-2017 The Karbowanec developers
-// Copyright (c) 2018 The ParsiCoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -198,6 +197,10 @@ public:
 
   uint64_t getPeerCount() {
     return m_node.getPeerCount();
+  }
+
+  uint64_t getMinimalFee() {
+    return m_node.getMinimalFee();
   }
 
   uint64_t getDifficulty() {
@@ -443,15 +446,19 @@ public:
     m_core(currency, &m_protocolHandler, logManager, true),
     m_nodeServer(m_dispatcher, m_protocolHandler, logManager),
     m_node(m_core, m_protocolHandler) {
-	CryptoNote::Checkpoints checkpoints(logManager);
-       for (const CryptoNote::CheckpointData& checkpoint : CryptoNote::CHECKPOINTS) {
-          checkpoints.add_checkpoint(checkpoint.height, checkpoint.blockId);
-       }
-       if (!Settings::instance().isTestnet()) {
-           m_core.set_checkpoints(std::move(checkpoints));
-       }
-       m_core.set_cryptonote_protocol(&m_protocolHandler);
-       m_protocolHandler.set_p2p_endpoint(&m_nodeServer);
+
+      CryptoNote::Checkpoints checkpoints(logManager);
+      checkpoints.load_checkpoints_from_dns();
+      for (const CryptoNote::CheckpointData& checkpoint : CryptoNote::CHECKPOINTS) {
+        checkpoints.add_checkpoint(checkpoint.height, checkpoint.blockId);
+      }
+      if (!Settings::instance().isTestnet()) {
+        m_core.set_checkpoints(std::move(checkpoints));
+      }
+
+      m_core.set_cryptonote_protocol(&m_protocolHandler);
+      m_protocolHandler.set_p2p_endpoint(&m_nodeServer);
+
   }
 
   ~InprocessNode() override {
@@ -559,6 +566,10 @@ public:
 
   uint64_t getGreyPeerlistSize() {
     return m_nodeServer.getPeerlistManager().get_gray_peers_count();
+  }
+
+  uint64_t getMinimalFee() {
+    return m_core.getMinimalFee();
   }
 
   CryptoNote::BlockHeaderInfo getLastLocalBlockHeaderInfo() {

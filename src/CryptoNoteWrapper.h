@@ -1,6 +1,5 @@
 // Copyright (c) 2011-2015 The Cryptonote developers
 // Copyright (c) 2016-2017 The Karbowanec developers
-// Copyright (c) 2018 The ParsiCoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -49,6 +48,7 @@ public:
   virtual uint64_t getIncomingConnectionsCount() = 0;
   virtual uint64_t getWhitePeerlistSize() = 0;
   virtual uint64_t getGreyPeerlistSize() = 0;
+  virtual uint64_t getMinimalFee() = 0;
   virtual uint8_t getCurrentBlockMajorVersion() = 0;
   virtual CryptoNote::BlockHeaderInfo getLastLocalBlockHeaderInfo() = 0;
 

@@ -1,7 +1,6 @@
 // Copyright (c) 2011-2015 The Cryptonote developers
 // Copyright (c) 2011-2013 The Bitcoin developers
 // Copyright (c) 2016-2017 The Karbowanec developers
-// Copyright (c) 2018 The ParsiCoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -39,6 +38,7 @@ TransactionsFrame::TransactionsFrame(QWidget* _parent) : QFrame(_parent), m_ui(n
   m_ui->m_transactionsView->header()->resizeSection(TransactionsModel::COLUMN_ADDRESS, 100);
   m_ui->m_transactionsView->header()->resizeSection(TransactionsModel::COLUMN_PAYMENT_ID, 200);
   m_ui->m_transactionsView->header()->resizeSection(TransactionsModel::COLUMN_HASH, 200);
+  m_ui->m_transactionsView->header()->resizeSection(TransactionsModel::COLUMN_SECRET_KEY, 200);
 
   connect(m_ui->m_transactionsView->selectionModel(), &QItemSelectionModel::selectionChanged, this, &TransactionsFrame::computeSelected);
 
@@ -111,6 +111,7 @@ void TransactionsFrame::exportToCsv() {
         res.append("\"").append(index.data(TransactionsModel::ROLE_HEIGHT).toString().toUtf8()).append("\",");
         res.append("\"").append(index.sibling(index.row(), TransactionsModel::COLUMN_ADDRESS).data().toString().toUtf8()).append("\",");
         res.append("\"").append(index.sibling(index.row(), TransactionsModel::COLUMN_PAYMENT_ID).data().toString().toUtf8()).append("\",");
+        res.append("\"").append(index.data(TransactionsModel::ROLE_SECRET_KEY).toByteArray().toHex().toUpper()).append("\"\n");
       }
       m_ui->m_transactionsView->clearSelection();
     } else {
@@ -122,6 +123,7 @@ void TransactionsFrame::exportToCsv() {
         res.append("\"").append(index.data(TransactionsModel::ROLE_HEIGHT).toString().toUtf8()).append("\",");
         res.append("\"").append(index.sibling(index.row(), TransactionsModel::COLUMN_ADDRESS).data().toString().toUtf8()).append("\",");
         res.append("\"").append(index.sibling(index.row(), TransactionsModel::COLUMN_PAYMENT_ID).data().toString().toUtf8()).append("\",");
+        res.append("\"").append(index.data(TransactionsModel::ROLE_SECRET_KEY).toByteArray().toHex().toUpper()).append("\"\n");
       }
     }
 
