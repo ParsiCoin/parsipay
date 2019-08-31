@@ -3,6 +3,7 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
+#include <limits>
 #include "CryptoNoteWrapper.h"
 #include "CryptoNoteCore/CryptoNoteBasicImpl.h"
 #include "CryptoNoteCore/CryptoNoteFormatUtils.h"
@@ -470,6 +471,10 @@ public:
       if (!m_core.init(m_coreConfig, CryptoNote::MinerConfig(), true)) {
         callback(make_error_code(CryptoNote::error::NOT_INITIALIZED));
         return;
+      }
+	  
+	  if(Settings::instance().getRollBack() != std::numeric_limits<uint32_t>::max()) {
+        m_core.rollbackBlockchain(Settings::instance().getRollBack());
       }
 
       if (!m_nodeServer.init(m_netNodeConfig)) {
