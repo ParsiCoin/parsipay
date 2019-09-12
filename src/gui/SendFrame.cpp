@@ -32,7 +32,7 @@ SendFrame::SendFrame(QWidget* _parent) : QFrame(_parent), m_ui(new Ui::SendFrame
   m_ui->setupUi(this);
   m_glassFrame->setObjectName("m_sendGlassFrame");
   clearAllClicked();
-  m_ui->m_mixinSlider->setValue(0);
+  m_ui->m_mixinSlider->setValue(3);
   mixinValueChanged(m_ui->m_mixinSlider->value());
   m_ui->m_prioritySlider->setValue(2);
   priorityValueChanged(m_ui->m_prioritySlider->value());
@@ -157,7 +157,7 @@ void SendFrame::clearAllClicked() {
   addRecipientClicked();
   amountValueChange();
   m_ui->m_paymentIdEdit->clear();
-  m_ui->m_mixinSlider->setValue(0);
+  m_ui->m_mixinSlider->setValue(3);
   m_ui->m_prioritySlider->setValue(2);
   priorityValueChanged(m_ui->m_prioritySlider->value());
 }
