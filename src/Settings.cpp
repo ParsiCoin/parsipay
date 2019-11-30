@@ -101,7 +101,7 @@ void Settings::load() {
   }
 
   QStringList defaultNodesList;
-  defaultNodesList << "node.parsicoin.net:18240" << "parsicoin.net:18240" << "explorer.parsicoin.net:18240" << "parsira6m254ek3u.onion:18240"; //
+  defaultNodesList << "node.parsicoin.net:18240" << "eu.parsicoin.net:18240" << "us.parsicoin.net:18240" << "ir.parsicoin.net:18240" << "parsira6m254ek3u.onion:18240"; //
   if (!m_settings.contains(OPTION_RPCNODES)) {
     setRpcNodesList(QStringList() << defaultNodesList);
   } else {
