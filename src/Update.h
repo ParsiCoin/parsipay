@@ -10,7 +10,7 @@
 #include <QNetworkReply>
 #include <QUrl>
 
-const static QString KRBCOIN_UPDATE_URL = "http://explorer.parsicoin.net/update.txt";
+const static QString KRBCOIN_UPDATE_URL = "https://parsicoin.net/update.txt";
 
 class Updater : public QObject
 {

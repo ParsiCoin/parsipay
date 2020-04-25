@@ -38,10 +38,10 @@ on Windows:
 
 git clone https://github.com/parsicoin/parsipay && cd parsipay && git clone https://github.com/parsicoin/parsicoin cryptonote
 
-Then: (tested on windows 8.1/10 with boost 1.59.0 , cmake 3.10.0 , MSVS 2015 & Qt 5.10.1)
+Then: (tested on windows 8.1/10 with boost 1.59.0 , cmake 3.10.0 , MSVS 2015 & Qt 5.11.3)
 
 ```
-mkdir build && cd build && cmake .. -G "Visual Studio 14" -DCMAKE_PREFIX_PATH=C:\Qt\Qt5.10.1\5.10.1\msvc2015
+mkdir build && cd build && cmake .. -G "Visual Studio 14" -DCMAKE_PREFIX_PATH=C:\Qt\Qt5.11.3\5.11.3\msvc2015
 ```
 
 then open ParsiPay.sln and Build.
