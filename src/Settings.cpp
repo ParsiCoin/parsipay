@@ -1,6 +1,7 @@
 // Copyright (c) 2011-2015 The Cryptonote developers
 // Copyright (c) 2015-2016 XDN developers
 // Copyright (c) 2016 The Karbowanec developers
+// Copyright (c) 2018-2020 The ParsiCoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -101,7 +102,7 @@ void Settings::load() {
   }
 
   QStringList defaultNodesList;
-  defaultNodesList << "wallet.parsicoin.net:18240" << "node.parsicoin.net:18240" << "us.parsicoin.net:18240" << "ir.parsicoin.net:18240" << "parsira6m254ek3u.onion:18240"; //
+  defaultNodesList << "node.parsicoin.net:18240" << "wallet.parsicoin.net:18240" << "parsira6m254ek3u.onion:18240"; //
   if (!m_settings.contains(OPTION_RPCNODES)) {
     setRpcNodesList(QStringList() << defaultNodesList);
   } else {
